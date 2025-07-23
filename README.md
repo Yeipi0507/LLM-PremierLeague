@@ -1,6 +1,11 @@
 # LLM-PremierLeague
+
+## Descripción del Proyecto
 Depende en que apartado del proyecto esten trabajando, selección de tecnologías, documentacion, o datasets tengan la libertad de añadir sus carpetas correspondientes y meter sus files, creen un pull requests con sus cambios o archivos añadidos y si es necesario les pedire comentarios para que puedan hacer adress a los comments que les deje.
 
+## Estructura del Proyecto
+
+```
 LLM-PremierLeague/
 ├── datasets/                 # Datasets y datos de entrenamiento
 │   ├── raw/                 # Datos sin procesar
@@ -18,3 +23,4 @@ LLM-PremierLeague/
 ├── configs/                # Archivos de configuración
 ├── experiments/            # Experimentos y resultados
 └── requirements.txt        # Dependencias
+```
