@@ -54,7 +54,7 @@ Este es el contenido generado por el modelo como respuesta al `user`, siguiendo 
 
 ```json
 [
-  { "role": "system", "content": "Eres un experto en estadísticas de la Premier League entre 2010 y 2024. Responde con datos precisos y breves." },
+  { "role": "system", "content": "Eres un experto en estadísticas de la Premier League entre 2014 y 2024. Responde con datos precisos y breves." },
   { "role": "user", "content": "¿Qué equipo fue campeón en la temporada 2016-2017?" },
   { "role": "assistant", "content": "El Chelsea fue campeón de la Premier League en la temporada 2016-2017." }
 ]
