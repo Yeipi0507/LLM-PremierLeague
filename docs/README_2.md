@@ -24,7 +24,7 @@ Desarrollar un modelo LLM enfocado en datos deportivos de la Premier League, cap
 - Python + Pandas para procesamiento de datos.
 - HuggingFace Transformers para el modelo LLM.
 - PEFT o LoRA para fine-tuning eficiente.
-- LLaMA y DeepSeek para arquitectura base del modelo.
+- LLaMA y Claude para arquitectura base del modelo, usando la API de Anthropic.
 - AWS (Amazon Web Services) para almacenamiento, despliegue y cómputo en la nube.
 - Streamlit o Gradio (prototipo de interfaz).
 - Google Sheets o Docs (coordinación del equipo).
