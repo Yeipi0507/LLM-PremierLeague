@@ -1,0 +1,11 @@
+# INTRODUCCIÓN
+En los últimos años, los Modelos de Lenguaje de Gran Tamaño (LLM, por sus siglas en inglés: Large Language Models) han revolucionado el campo de la inteligencia artificial y el procesamiento del lenguaje natural. Un LLM es un tipo de modelo de aprendizaje profundo diseñado para comprender, generar, traducir y analizar texto de manera muy similar a como lo haría un ser humano. Estos modelos se entrenan con cantidades masivas de datos textuales y cuentan con miles de millones de parámetros, lo que les permite aprender patrones lingüísticos complejos y responder a una amplia variedad de tareas con notable precisión.
+
+
+# Los LLM 
+son utilizados en una gran variedad de aplicaciones, incluyendo asistentes virtuales, traducción automática, redacción de textos, generación de código, análisis de sentimientos, entre muchas otras. Su utilidad se ha expandido a sectores como la educación, la medicina, la programación, el marketing, el derecho y la atención al cliente, permitiendo automatizar tareas que anteriormente requerían intervención humana especializada.
+
+
+# El funcionamiento de un LLM 
+se basa en redes neuronales profundas, especialmente del tipo transformer, que permiten analizar el contexto de las palabras dentro de un texto para generar respuestas coherentes y contextualizadas. Durante su entrenamiento, el modelo procesa grandes cantidades de texto y ajusta sus parámetros internos para minimizar el error de predicción de las siguientes palabras en una oración. Una vez entrenado, el modelo puede generar texto nuevo, responder preguntas, resumir información y más, con base en lo aprendido.
+Para desarrollar o utilizar un LLM, se requiere una combinación de infraestructura computacional avanzada (como GPUs o TPUs), grandes volúmenes de datos de calidad, algoritmos de optimización, y en muchos casos, herramientas de código abierto como PyTorch o TensorFlow. Además, se necesitan conocimientos en áreas como aprendizaje automático, lingüística computacional y ética en IA, ya que el uso responsable de estos modelos también implica considerar los sesgos en los datos, la privacidad y la transparencia.
