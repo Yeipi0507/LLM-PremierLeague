@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-08-06T17:03:39.662167",
+  "local_quality": {
+    "prediction": 0.75,
+    "chat": 0.75,
+    "average": 0.75
+  },
+  "claude_quality": {
+    "prediction": 0.75,
+    "chat": 0.75,
+    "average": 0.75
+  }
+}

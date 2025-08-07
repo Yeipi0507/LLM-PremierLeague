@@ -1,0 +1,1838 @@
+{
+  "claude_ai_on": {
+    "basic": {
+      "health": {
+        "success_rate": 1.0,
+        "avg_time": 0.002391338348388672,
+        "min_time": 0.0019762516021728516,
+        "max_time": 0.003656148910522461,
+        "median_time": 0.0019979476928710938,
+        "std_dev": 0.0007245225623370491,
+        "total_tests": 5,
+        "successful_tests": 5,
+        "sample_responses": [
+          {
+            "ai_mode": "Claude AI Activo",
+            "data_range": "2014-2024",
+            "llm_ready": true,
+            "model_version": "claude-opus-4-20250514",
+            "status": "healthy",
+            "teams_loaded": 34,
+            "timestamp": "2025-08-06T16:35:54.462553",
+            "use_claude_ai": true,
+            "version": "1.0.0"
+          },
+          {
+            "ai_mode": "Claude AI Activo",
+            "data_range": "2014-2024",
+            "llm_ready": true,
+            "model_version": "claude-opus-4-20250514",
+            "status": "healthy",
+            "teams_loaded": 34,
+            "timestamp": "2025-08-06T16:35:54.465025",
+            "use_claude_ai": true,
+            "version": "1.0.0"
+          }
+        ]
+      },
+      "teams": {
+        "success_rate": 1.0,
+        "avg_time": 0.0020164012908935546,
+        "min_time": 0.0016748905181884766,
+        "max_time": 0.0023381710052490234,
+        "median_time": 0.00203704833984375,
+        "std_dev": 0.00024525430990800896,
+        "total_tests": 5,
+        "successful_tests": 5,
+        "sample_responses": [
+          {
+            "count": 34,
+            "teams": [
+              "Arsenal",
+              "Aston Villa",
+              "Bournemouth",
+              "Brentford",
+              "Brighton",
+              "Burnley",
+              "Cardiff",
+              "Chelsea",
+              "Crystal Palace",
+              "Everton",
+              "Fulham",
+              "Huddersfield",
+              "Hull",
+              "Leeds",
+              "Leicester",
+              "Liverpool",
+              "Luton",
+              "Man City",
+              "Man United",
+              "Middlesbrough",
+              "Newcastle",
+              "Norwich",
+              "Nott'M Forest",
+              "Qpr",
+              "Sheffield United",
+              "Southampton",
+              "Stoke",
+              "Sunderland",
+              "Swansea",
+              "Tottenham",
+              "Watford",
+              "West Brom",
+              "West Ham",
+              "Wolves"
+            ]
+          },
+          {
+            "count": 34,
+            "teams": [
+              "Arsenal",
+              "Aston Villa",
+              "Bournemouth",
+              "Brentford",
+              "Brighton",
+              "Burnley",
+              "Cardiff",
+              "Chelsea",
+              "Crystal Palace",
+              "Everton",
+              "Fulham",
+              "Huddersfield",
+              "Hull",
+              "Leeds",
+              "Leicester",
+              "Liverpool",
+              "Luton",
+              "Man City",
+              "Man United",
+              "Middlesbrough",
+              "Newcastle",
+              "Norwich",
+              "Nott'M Forest",
+              "Qpr",
+              "Sheffield United",
+              "Southampton",
+              "Stoke",
+              "Sunderland",
+              "Swansea",
+              "Tottenham",
+              "Watford",
+              "West Brom",
+              "West Ham",
+              "Wolves"
+            ]
+          }
+        ]
+      },
+      "stats": {
+        "success_rate": 1.0,
+        "avg_time": 0.0016766071319580078,
+        "min_time": 0.001438140869140625,
+        "max_time": 0.001934051513671875,
+        "median_time": 0.0017600059509277344,
+        "std_dev": 0.00022042957464168427,
+        "total_tests": 5,
+        "successful_tests": 5,
+        "sample_responses": [
+          {
+            "data_loaded": true,
+            "features": [
+              "Predicciones de partidos",
+              "Análisis de equipos",
+              "Chat sobre Premier League",
+              "Estadísticas históricas",
+              "IA con Claude-3.5-Sonnet"
+            ],
+            "model_version": "claude-opus-4-20250514",
+            "total_matches": 3460,
+            "total_teams": 34
+          },
+          {
+            "data_loaded": true,
+            "features": [
+              "Predicciones de partidos",
+              "Análisis de equipos",
+              "Chat sobre Premier League",
+              "Estadísticas históricas",
+              "IA con Claude-3.5-Sonnet"
+            ],
+            "model_version": "claude-opus-4-20250514",
+            "total_matches": 3460,
+            "total_teams": 34
+          }
+        ]
+      },
+      "system": {
+        "success_rate": 1.0,
+        "avg_time": 0.0013861656188964844,
+        "min_time": 0.0011098384857177734,
+        "max_time": 0.001608133316040039,
+        "median_time": 0.001483917236328125,
+        "std_dev": 0.0002203648770414001,
+        "total_tests": 5,
+        "successful_tests": 5,
+        "sample_responses": [
+          {
+            "ai_mode": "Claude AI",
+            "current_date": "Agosto 2025",
+            "current_managers": {
+              "Arsenal": "Mikel Arteta",
+              "Aston Villa": "Unai Emery",
+              "Brighton": "Fabian Hurzeler",
+              "Chelsea": "Enzo Maresca",
+              "Liverpool": "Arne Slot",
+              "Man City": "Pep Guardiola",
+              "Man United": "Erik ten Hag",
+              "Newcastle": "Eddie Howe",
+              "Tottenham": "Ange Postecoglou",
+              "West Ham": "Julen Lopetegui"
+            },
+            "data_note": "Datos históricos disponibles hasta 2024, contexto actual agregado manualmente",
+            "league_winner_last_season": "Liverpool",
+            "major_changes": [
+              "Arne Slot reemplaza a Jürgen Klopp en Liverpool",
+              "Enzo Maresca nuevo entrenador del Chelsea",
+              "Múltiples fichajes importantes en verano 2024",
+              "Temporada 2024-25 en curso"
+            ],
+            "recent_transfers": [
+              "Kylian Mbappé se fue al Real Madrid",
+              "Arsenal fichó a Riccardo Calafiori",
+              "Chelsea fichó a Pedro Neto y Jadon Sancho",
+              "Liverpool fichó a Federico Chiesa",
+              "Man United fichó a Joshua Zirkzee y Matthijs de Ligt"
+            ],
+            "season": "2024-25",
+            "use_claude_ai": true
+          },
+          {
+            "ai_mode": "Claude AI",
+            "current_date": "Agosto 2025",
+            "current_managers": {
+              "Arsenal": "Mikel Arteta",
+              "Aston Villa": "Unai Emery",
+              "Brighton": "Fabian Hurzeler",
+              "Chelsea": "Enzo Maresca",
+              "Liverpool": "Arne Slot",
+              "Man City": "Pep Guardiola",
+              "Man United": "Erik ten Hag",
+              "Newcastle": "Eddie Howe",
+              "Tottenham": "Ange Postecoglou",
+              "West Ham": "Julen Lopetegui"
+            },
+            "data_note": "Datos históricos disponibles hasta 2024, contexto actual agregado manualmente",
+            "league_winner_last_season": "Liverpool",
+            "major_changes": [
+              "Arne Slot reemplaza a Jürgen Klopp en Liverpool",
+              "Enzo Maresca nuevo entrenador del Chelsea",
+              "Múltiples fichajes importantes en verano 2024",
+              "Temporada 2024-25 en curso"
+            ],
+            "recent_transfers": [
+              "Kylian Mbappé se fue al Real Madrid",
+              "Arsenal fichó a Riccardo Calafiori",
+              "Chelsea fichó a Pedro Neto y Jadon Sancho",
+              "Liverpool fichó a Federico Chiesa",
+              "Man United fichó a Joshua Zirkzee y Matthijs de Ligt"
+            ],
+            "season": "2024-25",
+            "use_claude_ai": true
+          }
+        ]
+      }
+    },
+    "predictions": {
+      "prediction_1": {
+        "success_rate": 1.0,
+        "avg_time": 12.715484571456908,
+        "min_time": 11.235992908477783,
+        "max_time": 13.676723957061768,
+        "median_time": 12.968900203704834,
+        "std_dev": 0.963558834774295,
+        "total_tests": 5,
+        "successful_tests": 5,
+        "sample_responses": [
+          {
+            "prediction": {
+              "away_team": "Chelsea",
+              "confidence_score": 0.68,
+              "expected_result": "Victoria Local",
+              "home_team": "Liverpool",
+              "key_insights": [
+                "Arne Slot ha mantenido la intensidad del Liverpool en Anfield con un estilo más posicional que el de Klopp, aprovechando la fortaleza histórica como local",
+                "Chelsea bajo Maresca muestra vulnerabilidad defensiva en transiciones rápidas, especialmente fuera de casa, mientras integra a Pedro Neto y Sancho al sistema",
+                "Los últimos 6 enfrentamientos directos han tenido 5 empates, pero el factor Anfield y la adaptación superior de Slot al equipo campeón inclina la balanza"
+              ],
+              "predicted_away_goals": 1.4,
+              "predicted_home_goals": 2.2,
+              "reasoning": "Liverpool parte con ventaja significativa al mantener el núcleo del equipo campeón 2023-24 y la rápida adaptación de Slot al ADN del club. Su impresionante 66.3% de victorias en casa se potencia con un sistema que mantiene la presión alta pero añade mayor control posicional. Chelsea, aunque con fichajes de calidad en Neto y Sancho, atraviesa un período de transición más profundo bajo Maresca, quien aún busca equilibrio entre su filosofía de posesión y la necesidad de solidez defensiva. La racha histórica de empates entre ambos sugiere partidos cerrados, pero la ventaja de Liverpool jugando en Anfield, sumada a la mayor estabilidad del proyecto de Slot comparado con los cambios estructurales en Chelsea, favorece una victoria local por margen estrecho.",
+              "win_probability_away": 0.22,
+              "win_probability_draw": 0.26,
+              "win_probability_home": 0.52
+            },
+            "timestamp": "2025-08-06T16:36:07.845900"
+          },
+          {
+            "prediction": {
+              "away_team": "Chelsea",
+              "confidence_score": 0.75,
+              "expected_result": "Victoria Local",
+              "home_team": "Liverpool",
+              "key_insights": [
+                "Arne Slot mantiene el estilo ofensivo del Liverpool con alta efectividad en Anfield, donde históricamente dominan con 66.3% de victorias",
+                "Chelsea bajo Maresca muestra inconsistencia defensiva fuera de casa, especialmente contra equipos top 6, y los nuevos fichajes aún se adaptan al sistema",
+                "Los últimos 6 enfrentamientos directos produjeron 5 empates, pero el factor Anfield y la transición del Chelsea favorecen al Liverpool"
+              ],
+              "predicted_away_goals": 1.6,
+              "predicted_home_goals": 2.3,
+              "reasoning": "Liverpool parte como favorito por varios factores clave: Arne Slot ha mantenido la intensidad y efectividad en Anfield donde el equipo históricamente es muy fuerte (66.3% victorias). El promedio de 2.01 goles por partido sugiere continuidad ofensiva bajo el nuevo técnico. Chelsea, aunque reforzado con Pedro Neto y Sancho, atraviesa un período de adaptación bajo Maresca con un sistema más complejo que requiere tiempo. La estadística de 50% de victorias fuera del Chelsea es engañosa ya que incluye rivales menores. En duelos directos recientes dominan los empates (5 de 6), pero el contexto actual favorece al Liverpool: mejor adaptación al cambio de entrenador, fortaleza en casa intacta y un Chelsea en construcción. El 4-1 del Liverpool en casa marca la diferencia cuando logran imponerse. Predicción ajustada considerando la solidez defensiva mejorada de ambos bajo sus nuevos técnicos.",
+              "win_probability_away": 0.22,
+              "win_probability_draw": 0.26,
+              "win_probability_home": 0.52
+            },
+            "timestamp": "2025-08-06T16:36:21.521101"
+          }
+        ]
+      },
+      "prediction_2": {
+        "success_rate": 1.0,
+        "avg_time": 12.088620805740357,
+        "min_time": 10.652294158935547,
+        "max_time": 13.217774868011475,
+        "median_time": 12.725961923599243,
+        "std_dev": 1.1437468855926947,
+        "total_tests": 5,
+        "successful_tests": 5,
+        "sample_responses": [
+          {
+            "prediction": {
+              "away_team": "Man City",
+              "confidence_score": 0.75,
+              "expected_result": "Victoria Visitante",
+              "home_team": "Arsenal",
+              "key_insights": [
+                "Man City mantiene dominio histórico en Emirates con 3 victorias consecutivas, incluyendo goleadas contundentes",
+                "Arsenal reforzó defensa con Calafiori pero sigue vulnerable ante el juego posicional de Guardiola",
+                "Pep Guardiola tiene récord de 11 victorias en 16 visitas al Emirates, demostrando supremacía táctica consistente"
+              ],
+              "predicted_away_goals": 2.1,
+              "predicted_home_goals": 1.3,
+              "reasoning": "A pesar de que Arsenal ha mostrado mejora bajo Arteta y el fichaje de Calafiori fortalece su defensa, el dominio histórico del City en este enfrentamiento es abrumador. Los datos muestran que City ha ganado 4 de los últimos 5 duelos directos, anotando 15 goles. La superioridad en métricas ofensivas del City (2.38 goles por partido vs 1.89 del Arsenal) y defensivas (0.89 recibidos vs 1.10) sugiere que mantendrán su hegemonía. Aunque Arsenal tiene buen récord en casa (65.5% victorias), City también es dominante fuera (64.2%). La experiencia de Guardiola en grandes partidos y su récord histórico contra Arteta (quien fue su asistente) inclina la balanza hacia el City, aunque espero un partido más cerrado que las goleadas recientes.",
+              "win_probability_away": 0.53,
+              "win_probability_draw": 0.25,
+              "win_probability_home": 0.22
+            },
+            "timestamp": "2025-08-06T16:37:10.844155"
+          },
+          {
+            "prediction": {
+              "away_team": "Man City",
+              "confidence_score": 0.75,
+              "expected_result": "Victoria Visitante",
+              "home_team": "Arsenal",
+              "key_insights": [
+                "Man City mantiene dominio histórico sobre Arsenal con 4 victorias en últimos 5 enfrentamientos directos",
+                "Arsenal con fichaje de Calafiori refuerza defensa pero enfrenta al equipo más goleador de la liga",
+                "Pep Guardiola tiene récord excepcional contra Arteta con sistema táctico que neutraliza el juego del Arsenal"
+              ],
+              "predicted_away_goals": 1.8,
+              "predicted_home_goals": 1.2,
+              "reasoning": "A pesar de la solidez defensiva del Arsenal en casa (1.10 goles recibidos) y su buen porcentaje de victorias locales (65.5%), el Manchester City presenta estadísticas superiores con 2.38 goles por partido y menor cantidad de goles recibidos (0.89). El dominio histórico del City en enfrentamientos directos es contundente, ganando 4 de los últimos 5 partidos con un promedio de 2.6 goles a favor. Aunque Arsenal fichó a Calafiori para reforzar la defensa, el City mantiene su núcleo ganador bajo Guardiola. La racha de 9 victorias consecutivas del City muestra mejor momento de forma que el Arsenal. Se espera un partido cerrado donde la experiencia y calidad del City en partidos grandes marque la diferencia, aunque Arsenal competirá aprovechando su fortaleza como local.",
+              "win_probability_away": 0.45,
+              "win_probability_draw": 0.3,
+              "win_probability_home": 0.25
+            },
+            "timestamp": "2025-08-06T16:37:21.921179"
+          }
+        ]
+      },
+      "prediction_3": {
+        "success_rate": 1.0,
+        "avg_time": 12.71931209564209,
+        "min_time": 11.33156681060791,
+        "max_time": 14.804824829101562,
+        "median_time": 12.839011907577515,
+        "std_dev": 1.4242810289212435,
+        "total_tests": 5,
+        "successful_tests": 5,
+        "sample_responses": [
+          {
+            "prediction": {
+              "away_team": "Tottenham",
+              "confidence_score": 0.72,
+              "expected_result": "Victoria Local",
+              "home_team": "Man United",
+              "key_insights": [
+                "Man United históricamente domina en Old Trafford contra Tottenham con 3 victorias consecutivas en casa",
+                "El estilo ofensivo de Postecoglou puede dejar espacios que United explote en transiciones rápidas",
+                "Ten Hag en su tercera temporada debería tener al equipo mejor adaptado a su sistema táctico"
+              ],
+              "predicted_away_goals": 1.6,
+              "predicted_home_goals": 1.8,
+              "reasoning": "Basándome en los datos históricos, Man United muestra un dominio claro en Old Trafford contra Tottenham (3-2, 2-0 en encuentros recientes). Aunque Tottenham promedia más goles por partido (1.85 vs 1.57), su porcentaje de victorias fuera de casa (44.6%) es considerablemente inferior al de United en casa (59.5%). El estilo de juego de alto riesgo de Postecoglou, caracterizado por una línea defensiva alta y presión intensa, puede ser vulnerable a los contraataques de United. Ten Hag, en su tercera temporada, debería tener mejor consolidado su sistema. La forma reciente histórica muestra inconsistencia en ambos equipos, pero la ventaja de localía y el historial directo favorecen a United. Proyecto un partido cerrado con ligera ventaja para los locales.",
+              "win_probability_away": 0.3,
+              "win_probability_draw": 0.28,
+              "win_probability_home": 0.42
+            },
+            "timestamp": "2025-08-06T16:38:09.849777"
+          },
+          {
+            "prediction": {
+              "away_team": "Tottenham",
+              "confidence_score": 0.72,
+              "expected_result": "Victoria Local",
+              "home_team": "Man United",
+              "key_insights": [
+                "United ha mejorado defensivamente bajo Ten Hag y mantiene fortaleza en Old Trafford con 59.5% victorias en casa",
+                "Tottenham bajo Postecoglou juega fútbol ofensivo pero puede ser vulnerable defensivamente, especialmente fuera de casa",
+                "Dominio histórico reciente del United en enfrentamientos directos con 2 victorias consecutivas en Old Trafford"
+              ],
+              "predicted_away_goals": 1.6,
+              "predicted_home_goals": 1.8,
+              "reasoning": "Manchester United parte con ventaja por su solidez en Old Trafford y el dominio histórico sobre Tottenham en casa. Ten Hag ha consolidado un sistema defensivo más sólido en su tercera temporada, mientras que el estilo ofensivo de Postecoglou puede dejar espacios que United sabe explotar. Los datos históricos muestran que United promedia menos goles pero también recibe menos, indicando partidos más cerrados. La adaptación de Tottenham al segundo año de Postecoglou ha mejorado su ataque pero mantiene vulnerabilidades defensivas fuera de casa. El factor Old Trafford y la experiencia de Ten Hag en grandes partidos inclina la balanza hacia una victoria local ajustada.",
+              "win_probability_away": 0.3,
+              "win_probability_draw": 0.28,
+              "win_probability_home": 0.42
+            },
+            "timestamp": "2025-08-06T16:38:22.687892"
+          }
+        ]
+      },
+      "prediction_4": {
+        "success_rate": 1.0,
+        "avg_time": 12.307195854187011,
+        "min_time": 11.366591930389404,
+        "max_time": 12.880686044692993,
+        "median_time": 12.388288021087646,
+        "std_dev": 0.6021627164696267,
+        "total_tests": 5,
+        "successful_tests": 5,
+        "sample_responses": [
+          {
+            "prediction": {
+              "away_team": "Aston Villa",
+              "confidence_score": 0.75,
+              "expected_result": "Victoria Local",
+              "home_team": "Newcastle",
+              "key_insights": [
+                "Newcastle muestra un dominio histórico absoluto en enfrentamientos directos recientes con 3 victorias consecutivas en casa por amplio margen",
+                "Eddie Howe ha consolidado un sistema defensivo-ofensivo equilibrado en St. James' Park, mientras Unai Emery aún trabaja en mejorar el rendimiento visitante del Villa",
+                "La ventaja de localía del Newcastle (42.6% victorias en casa vs 29.9% del Villa fuera) es un factor determinante en este duelo"
+              ],
+              "predicted_away_goals": 1.2,
+              "predicted_home_goals": 1.8,
+              "reasoning": "El análisis se basa en la combinación de datos históricos contundentes y el contexto actual. Newcastle ha demostrado una superioridad aplastante en los últimos enfrentamientos directos en casa (1-0, 4-0, 5-1), lo cual sugiere un patrón táctico favorable contra el estilo de juego del Aston Villa. Eddie Howe ha mantenido la estabilidad en Newcastle, aprovechando la fortaleza en St. James' Park. Por su parte, aunque Unai Emery es reconocido por su capacidad táctica, el Villa históricamente ha mostrado vulnerabilidad como visitante (solo 29.9% de victorias). La temporada 2024-25 encuentra a ambos equipos en proceso de consolidación, pero el factor localía y el dominio histórico directo inclinan la balanza hacia Newcastle. Se proyecta un partido competido pero con ventaja clara para los locales.",
+              "win_probability_away": 0.25,
+              "win_probability_draw": 0.27,
+              "win_probability_home": 0.48
+            },
+            "timestamp": "2025-08-06T16:39:14.502895"
+          },
+          {
+            "prediction": {
+              "away_team": "Aston Villa",
+              "confidence_score": 0.72,
+              "expected_result": "Victoria Local",
+              "home_team": "Newcastle",
+              "key_insights": [
+                "Newcastle mantiene un dominio histórico contundente en St. James' Park con 3 victorias consecutivas por goleada contra Villa",
+                "Eddie Howe ha consolidado un sistema defensivo-ofensivo equilibrado mientras Unai Emery aún busca consistencia fuera de casa",
+                "La adaptación de Villa a la temporada 2024-25 bajo Emery sugiere mejora gradual pero Newcastle conserva ventaja psicológica en casa"
+              ],
+              "predicted_away_goals": 1.2,
+              "predicted_home_goals": 1.8,
+              "reasoning": "El análisis se basa en el dominio histórico abrumador de Newcastle en enfrentamientos directos recientes (8-1 en goles últimos 3 partidos en casa). Aunque los datos históricos muestran estadísticas generales similares entre ambos equipos, el factor diferencial es el rendimiento específico en este emparejamiento. Eddie Howe ha mantenido la estabilidad táctica del Newcastle, mientras que Unai Emery, a pesar de su experiencia, enfrenta el desafío histórico del Villa fuera de casa (29.9% victorias visitante). La temporada 2024-25 en curso sugiere que Newcastle mantiene su fortaleza en St. James' Park, aunque se proyecta un partido más equilibrado que los antecedentes inmediatos debido a las mejoras implementadas por Emery.",
+              "win_probability_away": 0.25,
+              "win_probability_draw": 0.27,
+              "win_probability_home": 0.48
+            },
+            "timestamp": "2025-08-06T16:39:25.869510"
+          }
+        ]
+      },
+      "prediction_5": {
+        "success_rate": 1.0,
+        "avg_time": 12.780188989639282,
+        "min_time": 11.101232767105103,
+        "max_time": 14.643697023391724,
+        "median_time": 12.491587162017822,
+        "std_dev": 1.5814272958880315,
+        "total_tests": 5,
+        "successful_tests": 5,
+        "sample_responses": [
+          {
+            "prediction": {
+              "away_team": "West Ham",
+              "confidence_score": 0.72,
+              "expected_result": "Victoria Local",
+              "home_team": "Brighton",
+              "key_insights": [
+                "Fabian Hurzeler ha implementado un estilo ofensivo en Brighton que se refleja en el dominio histórico sobre West Ham (7-1 en últimos dos partidos en casa)",
+                "Julen Lopetegui necesita tiempo para estabilizar defensivamente al West Ham, especialmente fuera de casa donde históricamente solo ganan 28.5% de partidos",
+                "Brighton mantiene fortaleza en el Amex Stadium con 36.5% de victorias históricas y tendencia dominante reciente contra West Ham"
+              ],
+              "predicted_away_goals": 1.3,
+              "predicted_home_goals": 1.8,
+              "reasoning": "Aunque ambos equipos tienen nuevos entrenadores esta temporada 2024-25, Brighton bajo Hurzeler parece haber mantenido su fortaleza en casa, especialmente contra West Ham donde han ganado los últimos dos encuentros con autoridad (3-1 y 4-0). Lopetegui está en proceso de reconstrucción en West Ham, pero el equipo históricamente muestra vulnerabilidad fuera de casa. Los datos sugieren que Brighton aprovechará su ventaja local y el período de adaptación del West Ham. El promedio de goles histórico combinado (2.65) y la tendencia ofensiva de Brighton en casa sugieren un partido con al menos 2-3 goles, con ligera ventaja para los locales.",
+              "win_probability_away": 0.25,
+              "win_probability_draw": 0.27,
+              "win_probability_home": 0.48
+            },
+            "timestamp": "2025-08-06T16:40:15.137686"
+          },
+          {
+            "prediction": {
+              "away_team": "West Ham",
+              "confidence_score": 0.72,
+              "expected_result": "Victoria Local",
+              "home_team": "Brighton",
+              "key_insights": [
+                "Fabian Hurzeler ha implementado un estilo ofensivo en Brighton que podría potenciar su ya fuerte rendimiento en casa, mientras Lopetegui aún busca estabilidad defensiva en West Ham",
+                "Brighton mantiene excelente registro histórico contra West Ham (4 victorias en últimos 6 enfrentamientos) y el nuevo sistema táctico de Hurzeler favorece el dominio en casa",
+                "West Ham bajo Lopetegui muestra vulnerabilidad defensiva fuera de casa, especialmente contra equipos que presionan alto como el nuevo Brighton"
+              ],
+              "predicted_away_goals": 1.3,
+              "predicted_home_goals": 1.8,
+              "reasoning": "Brighton parte como favorito basándose en su sólido rendimiento histórico en casa (36.5% de victorias) y su dominio reciente sobre West Ham (victorias contundentes 3-1 y 4-0). Fabian Hurzeler ha traído un estilo de juego más vertical y agresivo que se adapta bien a las características del plantel del Brighton. Por otro lado, West Ham bajo Julen Lopetegui aún está en proceso de adaptación táctica, mostrando inconsistencia fuera de casa (solo 28.5% de victorias). La forma histórica reciente de ambos equipos es preocupante, pero Brighton tiene la ventaja del factor local y un sistema táctico más asentado. El promedio de goles sugiere un partido con al menos 2-3 goles, favoreciendo ligeramente al equipo local.",
+              "win_probability_away": 0.25,
+              "win_probability_draw": 0.27,
+              "win_probability_home": 0.48
+            },
+            "timestamp": "2025-08-06T16:40:29.315712"
+          }
+        ]
+      }
+    },
+    "analysis": {
+      "analysis_1": {
+        "success_rate": 1.0,
+        "avg_time": 11.29080958366394,
+        "min_time": 10.160851955413818,
+        "max_time": 11.987030982971191,
+        "median_time": 11.545586824417114,
+        "std_dev": 0.763083943338998,
+        "total_tests": 5,
+        "successful_tests": 5,
+        "sample_responses": [
+          {
+            "analysis": {
+              "goals_conceded_per_game": 1.0260115606936415,
+              "goals_per_game": 2.008670520231214,
+              "home_advantage": 0.1340550654905105,
+              "key_players": [
+                "Mohamed Salah",
+                "Virgil van Dijk",
+                "Alisson Becker"
+              ],
+              "recent_form": "Buena - Período de transición positiva bajo Arne Slot con adaptación gradual al nuevo sistema",
+              "strengths": [
+                "Sólida base defensiva heredada de Klopp",
+                "Capacidad goleadora histórica de 2+ goles por partido",
+                "Fortaleza como local con 66.3% de victorias"
+              ],
+              "team_name": "Liverpool",
+              "weaknesses": [
+                "Adaptación al nuevo sistema táctico de Slot",
+                "Profundidad de plantilla en transición"
+              ],
+              "win_rate": 0.5953757225433526
+            },
+            "timestamp": "2025-08-06T16:41:19.099235"
+          },
+          {
+            "analysis": {
+              "goals_conceded_per_game": 1.0260115606936415,
+              "goals_per_game": 2.008670520231214,
+              "home_advantage": 0.1340550654905105,
+              "key_players": [
+                "Mohamed Salah",
+                "Virgil van Dijk",
+                "Alexis Mac Allister"
+              ],
+              "recent_form": "Buena - periodo de transición exitoso bajo nuevo entrenador",
+              "strengths": [
+                "Excelente historial goleador",
+                "Defensa sólida con promedio de 1.03 goles recibidos",
+                "Dominio en Anfield con 66.3% de victorias en casa"
+              ],
+              "team_name": "Liverpool",
+              "weaknesses": [
+                "Adaptación al nuevo sistema táctico post-Klopp",
+                "Dependencia de jugadores veteranos clave"
+              ],
+              "win_rate": 0.5953757225433526
+            },
+            "timestamp": "2025-08-06T16:41:29.260006"
+          }
+        ]
+      },
+      "analysis_2": {
+        "success_rate": 1.0,
+        "avg_time": 11.975473785400391,
+        "min_time": 10.989727020263672,
+        "max_time": 13.211793184280396,
+        "median_time": 11.851356744766235,
+        "std_dev": 0.8631596591034035,
+        "total_tests": 5,
+        "successful_tests": 5,
+        "sample_responses": [
+          {
+            "analysis": {
+              "goals_conceded_per_game": 1.1098265895953756,
+              "goals_per_game": 1.745664739884393,
+              "home_advantage": 0.04022988505747127,
+              "key_players": [
+                "Cole Palmer",
+                "Enzo Fernández",
+                "Nicolas Jackson"
+              ],
+              "recent_form": "Buena - El equipo muestra adaptación progresiva al sistema de Maresca con mejoras tácticas notables",
+              "strengths": [
+                "Profundidad de plantilla con fichajes de calidad",
+                "Solidez defensiva histórica mantenida",
+                "Versatilidad táctica bajo Maresca"
+              ],
+              "team_name": "Chelsea",
+              "weaknesses": [
+                "Falta de cohesión por múltiples incorporaciones",
+                "Dependencia excesiva de jugadores jóvenes"
+              ],
+              "win_rate": 0.5202312138728323
+            },
+            "timestamp": "2025-08-06T16:42:15.442969"
+          },
+          {
+            "analysis": {
+              "goals_conceded_per_game": 1.1098265895953756,
+              "goals_per_game": 1.745664739884393,
+              "home_advantage": 0.04022988505747127,
+              "key_players": [
+                "Cole Palmer",
+                "Enzo Fernández",
+                "Nicolas Jackson"
+              ],
+              "recent_form": "Buena - adaptación positiva al nuevo sistema de Maresca con mejoras tácticas evidentes",
+              "strengths": [
+                "Profundidad de plantilla con fichajes de calidad",
+                "Solidez defensiva mejorada bajo Maresca",
+                "Versatilidad táctica con jugadores como Pedro Neto y Sancho"
+              ],
+              "team_name": "Chelsea",
+              "weaknesses": [
+                "Falta de cohesión por múltiples cambios en plantilla",
+                "Dependencia excesiva de jugadores jóvenes sin experiencia en momentos clave"
+              ],
+              "win_rate": 0.5202312138728323
+            },
+            "timestamp": "2025-08-06T16:42:28.653837"
+          }
+        ]
+      },
+      "analysis_3": {
+        "success_rate": 1.0,
+        "avg_time": 11.328207635879517,
+        "min_time": 10.242123126983643,
+        "max_time": 12.867794752120972,
+        "median_time": 10.759968996047974,
+        "std_dev": 1.1268690678767566,
+        "total_tests": 5,
+        "successful_tests": 5,
+        "sample_responses": [
+          {
+            "analysis": {
+              "goals_conceded_per_game": 1.0982658959537572,
+              "goals_per_game": 1.8872832369942196,
+              "home_advantage": 0.1842421812349639,
+              "key_players": [
+                "Bukayo Saka",
+                "Martin Ødegaard",
+                "Declan Rice"
+              ],
+              "recent_form": "Excelente - consolidación del proyecto de Arteta con resultados consistentes",
+              "strengths": [
+                "Solidez defensiva excepcional (1.10 goles recibidos por partido)",
+                "Dominio absoluto como local (65.5% victorias)",
+                "Proyecto consolidado con estilo de juego definido"
+              ],
+              "team_name": "Arsenal",
+              "weaknesses": [
+                "Rendimiento irregular como visitante (47.1% victorias)",
+                "Dependencia de jugadores clave sin rotación suficiente"
+              ],
+              "win_rate": 0.5635838150289018
+            },
+            "timestamp": "2025-08-06T16:43:16.045163"
+          },
+          {
+            "analysis": {
+              "goals_conceded_per_game": 1.0982658959537572,
+              "goals_per_game": 1.8872832369942196,
+              "home_advantage": 0.1842421812349639,
+              "key_players": [
+                "Bukayo Saka",
+                "Martin Ødegaard",
+                "Declan Rice"
+              ],
+              "recent_form": "Excelente - considerando contexto actual",
+              "strengths": [
+                "Solidez defensiva excepcional (1.10 goles recibidos por partido)",
+                "Dominio absoluto como local (65.5% victorias)",
+                "Proyecto consolidado bajo Arteta con continuidad táctica"
+              ],
+              "team_name": "Arsenal",
+              "weaknesses": [
+                "Dependencia excesiva de jugadores clave",
+                "Rendimiento inferior como visitante comparado con casa"
+              ],
+              "win_rate": 0.5635838150289018
+            },
+            "timestamp": "2025-08-06T16:43:26.805682"
+          }
+        ]
+      },
+      "analysis_4": {
+        "success_rate": 1.0,
+        "avg_time": 13.457077026367188,
+        "min_time": 10.44750714302063,
+        "max_time": 17.718204021453857,
+        "median_time": 12.1890549659729,
+        "std_dev": 2.9600247082899127,
+        "total_tests": 5,
+        "successful_tests": 5,
+        "sample_responses": [
+          {
+            "analysis": {
+              "goals_conceded_per_game": 0.8901734104046243,
+              "goals_per_game": 2.3815028901734103,
+              "home_advantage": 0.10404624277456653,
+              "key_players": [
+                "Erling Haaland",
+                "Kevin De Bruyne",
+                "Rodri"
+              ],
+              "recent_form": "Excelente - considerando contexto actual",
+              "strengths": [
+                "Posesión dominante y control del juego",
+                "Profundidad de plantilla excepcional",
+                "Capacidad goleadora con Haaland"
+              ],
+              "team_name": "Man City",
+              "weaknesses": [
+                "Dependencia de jugadores clave cuando hay lesiones",
+                "Vulnerabilidad ocasional en transiciones rápidas"
+              ],
+              "win_rate": 0.6936416184971098
+            },
+            "timestamp": "2025-08-06T16:44:15.756234"
+          },
+          {
+            "analysis": {
+              "goals_conceded_per_game": 0.8901734104046243,
+              "goals_per_game": 2.3815028901734103,
+              "home_advantage": 0.10404624277456653,
+              "key_players": [
+                "Erling Haaland",
+                "Kevin De Bruyne",
+                "Rodri"
+              ],
+              "recent_form": "Excelente - Manchester City mantiene su nivel élite bajo Guardiola con ligero desgaste tras perder la liga anterior",
+              "strengths": [
+                "Dominio absoluto de la posesión y control del juego",
+                "Profundidad de plantilla y rotaciones de calidad",
+                "Capacidad goleadora con múltiples vías de ataque"
+              ],
+              "team_name": "Man City",
+              "weaknesses": [
+                "Posible fatiga mental tras años de dominio y pérdida del título anterior",
+                "Dependencia de jugadores clave envejeciendo como De Bruyne"
+              ],
+              "win_rate": 0.6936416184971098
+            },
+            "timestamp": "2025-08-06T16:44:27.457586"
+          }
+        ]
+      },
+      "analysis_5": {
+        "success_rate": 1.0,
+        "avg_time": 12.695258140563965,
+        "min_time": 11.089905738830566,
+        "max_time": 15.253581047058105,
+        "median_time": 11.875449895858765,
+        "std_dev": 1.6594752066697738,
+        "total_tests": 5,
+        "successful_tests": 5,
+        "sample_responses": [
+          {
+            "analysis": {
+              "goals_conceded_per_game": 1.115606936416185,
+              "goals_per_game": 1.5722543352601157,
+              "home_advantage": 0.16763005780346818,
+              "key_players": [
+                "Bruno Fernandes",
+                "Marcus Rashford",
+                "Matthijs de Ligt"
+              ],
+              "recent_form": "Buena - Mejora notable con Ten Hag consolidado y nuevos fichajes integrados",
+              "strengths": [
+                "Defensa reforzada con De Ligt",
+                "Mayor solidez táctica bajo Ten Hag",
+                "Profundidad de plantilla mejorada"
+              ],
+              "team_name": "Man United",
+              "weaknesses": [
+                "Inconsistencia en partidos fuera de casa",
+                "Dependencia de momentos individuales de brillantez"
+              ],
+              "win_rate": 0.5115606936416185
+            },
+            "timestamp": "2025-08-06T16:45:21.220040"
+          },
+          {
+            "analysis": {
+              "goals_conceded_per_game": 1.115606936416185,
+              "goals_per_game": 1.5722543352601157,
+              "home_advantage": 0.16763005780346818,
+              "key_players": [
+                "Bruno Fernandes",
+                "Marcus Rashford",
+                "Matthijs de Ligt"
+              ],
+              "recent_form": "Regular - El equipo muestra inconsistencia típica de las últimas temporadas con ten Hag trabajando en consolidar su proyecto",
+              "strengths": [
+                "Solidez defensiva mejorada con De Ligt",
+                "Potencial ofensivo con Zirkzee complementando a Rashford",
+                "Experiencia de ten Hag en su segunda temporada completa"
+              ],
+              "team_name": "Man United",
+              "weaknesses": [
+                "Inconsistencia en resultados fuera de casa (42.8% victorias)",
+                "Dependencia excesiva de momentos individuales"
+              ],
+              "win_rate": 0.5115606936416185
+            },
+            "timestamp": "2025-08-06T16:45:32.310519"
+          }
+        ]
+      }
+    },
+    "chat": {
+      "chat_1": {
+        "success_rate": 1.0,
+        "avg_time": 17.469882488250732,
+        "min_time": 11.980082035064697,
+        "max_time": 20.453182220458984,
+        "median_time": 20.038814783096313,
+        "std_dev": 3.902948449751408,
+        "total_tests": 5,
+        "successful_tests": 5,
+        "sample_responses": [
+          {
+            "response": "Analizando la carrera por el máximo goleador de la Premier League 2024-25, mi predicción se basa en varios factores clave:\n\n**Mi pronóstico con probabilidades:**\n\n1. **Erling Haaland (Manchester City) - 45% de probabilidad**\n   - Máximo goleador las últimas dos temporadas (36 y 27 goles)\n   - Sistema de Guardiola perfectamente adaptado a sus características\n   - Sin lesiones significativas, es el favorito indiscutible\n\n2. **Mohamed Salah (Liverpool) - 25% de probabilidad**\n   - Nueva motivación bajo Arne Slot\n   - Historial consistente: nunca ha bajado de 18 goles en liga\n   - El nuevo sistema de Slot podría favorecerle aún más\n\n3. **Darwin Núñez (Liverpool) - 15% de probabilidad**\n   - Segunda temporada completa, mejor adaptado\n   - Con el nuevo enfoque táctico de Slot podría explotar\n   - Competencia con Salah podría motivarle\n\n4. **Bukayo Saka (Arsenal) - 8% de probabilidad**\n   - Progresión constante año tras año\n   - Penaltis y protagonismo creciente con Arteta\n   - Arsenal aspira al título, lo que significa más goles\n\n5. **Otros candidatos - 7% de probabilidad**\n   - Ollie Watkins (Aston Villa): Gran temporada pasada\n   - Son Heung-min (Tottenham): Sistema ofensivo de Postecoglou\n   - Nicolas Jackson (Chelsea): Nueva confianza bajo Maresca\n\n**Factores clave a considerar:**\n- El nuevo sistema de Arne Slot en Liverpool podría potenciar a sus delanteros\n- Chelsea con Maresca busca más equilibrio, lo que podría limitar a sus atacantes\n- La continuidad de Guardiola favorece a Haaland\n\nMi predicción: **Erling Haaland con 28-32 goles**, aunque Salah podría dar la sorpresa si el nuevo Liverpool de Slot es tan ofensivo como se espera.",
+            "timestamp": "2025-08-06T16:46:31.742531"
+          },
+          {
+            "response": "Analizando las probabilidades para el máximo goleador de la Premier League 2024-25, aquí está mi evaluación basada en la información actualizada:\n\n**Erling Haaland (Manchester City) - 45% de probabilidad**\nEl noruego sigue siendo el favorito indiscutible. A pesar de la presión de las investigaciones financieras sobre el City, Haaland continúa demostrando una consistencia goleadora extraordinaria bajo Guardiola. Su capacidad física y el sistema ofensivo del City lo convierten en el principal candidato.\n\n**Mohamed Salah (Liverpool) - 20% de probabilidad**\nCon el nuevo sistema de Arne Slot, Salah podría experimentar un renacimiento goleador. El estilo más directo del técnico holandés podría beneficiar al egipcio, aunque la incorporación de Chiesa podría restarle algunos minutos.\n\n**Bukayo Saka (Arsenal) - 12% de probabilidad**\nCon Arteta consolidando un Arsenal cada vez más ofensivo, Saka se ha convertido en una máquina de goles y asistencias. Su regularidad desde el punto de penalti le da ventaja adicional.\n\n**Darwin Núñez (Liverpool) - 8% de probabilidad**\nEl uruguayo podría explotar bajo Slot si logra ganar la titularidad. Su potencial es enorme, pero la consistencia sigue siendo su asignatura pendiente.\n\n**Cole Palmer (Chelsea) - 8% de probabilidad**\nLa revelación de la temporada pasada bajo Pochettino. Con Enzo Maresca implementando un estilo más posicional, Palmer podría beneficiarse enormemente, especialmente con las nuevas incorporaciones como Pedro Neto creando espacios.\n\n**Otros candidatos (7%)**\n- Ollie Watkins (Aston Villa) - El sistema de Unai Emery lo potencia\n- Alexander Isak (Newcastle) - Si supera sus problemas de lesiones\n- Jadon Sancho (Chelsea) - Su regreso a Londres podría revitalizarlo\n\nMi predicción es que **Haaland ganará su tercer título consecutivo de máximo goleador**, pero la competencia será más reñida que en temporadas anteriores debido a los cambios tácticos en Liverpool y Chelsea.",
+            "timestamp": "2025-08-06T16:46:46.415835"
+          }
+        ]
+      },
+      "chat_2": {
+        "success_rate": 1.0,
+        "avg_time": 14.39538402557373,
+        "min_time": 12.076080799102783,
+        "max_time": 17.120639085769653,
+        "median_time": 12.98603105545044,
+        "std_dev": 2.454064660548033,
+        "total_tests": 5,
+        "successful_tests": 5,
+        "sample_responses": [
+          {
+            "response": "El Arsenal está teniendo una temporada muy competitiva bajo la dirección de Mikel Arteta. Aunque no tengo los datos exactos de la tabla actual en este momento, puedo analizar su rendimiento basándome en varios factores clave:\n\n**Aspectos positivos de la temporada 2024-25:**\n\n1. **Continuidad del proyecto**: Arteta sigue consolidando su estilo de juego con un equipo que ya conoce perfectamente sus métodos tras varias temporadas juntos.\n\n2. **Refuerzo defensivo**: La incorporación de Riccardo Calafiori ha fortalecido la línea defensiva, dándole más opciones y profundidad al equipo en esa zona crucial.\n\n3. **Madurez del equipo**: Jugadores como Saka, Martinelli y Ødegaard están en su mejor momento, mientras que Rice (fichado la temporada anterior) se ha adaptado completamente al sistema.\n\n**Análisis competitivo:**\n\nEl Arsenal está compitiendo principalmente con:\n- **Liverpool de Arne Slot**: El nuevo técnico ha mantenido al equipo en la élite tras la salida de Klopp\n- **Manchester City de Guardiola**: Siempre favoritos por su consistencia\n- **Chelsea de Maresca**: En proceso de reconstrucción con fichajes como Pedro Neto y Sancho\n\n**Proyección para el resto de la temporada:**\n\nSi tuviera que evaluar las probabilidades de título del Arsenal considerando todos los factores:\n- **Arsenal campeón**: 22%\n- **Manchester City**: 35%\n- **Liverpool**: 28%\n- **Chelsea**: 10%\n- **Otros**: 5%\n\nEl Arsenal tiene una plantilla sólida y un proyecto maduro, pero la competencia es feroz. Su éxito dependerá mucho de mantenerse sin lesiones importantes y de su rendimiento en los enfrentamientos directos contra Liverpool y City.",
+            "timestamp": "2025-08-06T16:47:51.439882"
+          },
+          {
+            "response": "Arsenal está teniendo un arranque prometedor en la temporada 2024-25 bajo la dirección de Mikel Arteta. El equipo continúa mostrando la solidez y consistencia que les permitió pelear por el título en las últimas dos temporadas, aunque finalmente no pudieron superar al Manchester City.\n\n**Aspectos destacados del Arsenal esta temporada:**\n\nEl fichaje de Riccardo Calafiori ha reforzado significativamente la defensa, proporcionando versatilidad tanto como central zurdo como lateral. Su incorporación permite a Arteta más opciones tácticas y ha mejorado la salida de balón desde atrás.\n\nLa columna vertebral del equipo sigue siendo sólida con:\n- **Portería**: Raya como titular indiscutible\n- **Defensa**: Saliba y Gabriel formando una de las mejores parejas de centrales de la liga\n- **Mediocampo**: Declan Rice y Martin Ødegaard liderando el centro del campo\n- **Ataque**: Saka y Martinelli por las bandas, con Gabriel Jesus y Havertz alternando en la delantera\n\n**Análisis de rendimiento:**\n\nEl Arsenal mantiene su estilo de juego posicional con alta presión y transiciones rápidas. La principal mejora esta temporada es la gestión de partidos importantes - algo que les costó puntos cruciales la temporada pasada.\n\n**Proyección para el título 2024-25:**\n- **Manchester City**: 42% de probabilidades (experiencia, plantilla profunda, Guardiola)\n- **Arsenal**: 28% de probabilidades (continuidad del proyecto, mejoras tácticas)\n- **Liverpool**: 20% de probabilidades (adaptación a Arne Slot tras la era Klopp)\n- **Chelsea**: 7% de probabilidades (proceso de reconstrucción con Maresca)\n- **Otros**: 3% de probabilidades\n\nEl Arsenal está en una posición fuerte para volver a competir por el título, pero necesitará mantener la consistencia durante toda la temporada y mejorar su récord contra los rivales directos para finalmente destronar al Manchester City.",
+            "timestamp": "2025-08-06T16:48:08.560367"
+          }
+        ]
+      },
+      "chat_3": {
+        "success_rate": 1.0,
+        "avg_time": 13.33468837738037,
+        "min_time": 12.167110919952393,
+        "max_time": 14.021353960037231,
+        "median_time": 13.492289066314697,
+        "std_dev": 0.691927454745647,
+        "total_tests": 5,
+        "successful_tests": 5,
+        "sample_responses": [
+          {
+            "response": "Basándome en el contexto actual de la temporada 2024-25, aquí está mi análisis del hipotético enfrentamiento entre Liverpool y Chelsea:\n\n**Predicción de probabilidades:**\n- **Victoria Liverpool: 55%**\n- **Empate: 25%**\n- **Victoria Chelsea: 20%**\n\n**Análisis detallado:**\n\n**Liverpool bajo Arne Slot** ha mostrado una transición muy positiva tras la salida de Klopp. El estilo de juego del técnico neerlandés ha mantenido la intensidad característica del club, pero con mayor control en la posesión. La incorporación de Federico Chiesa añade profundidad al ataque, complementando perfectamente a Salah, Núñez y Díaz.\n\n**Chelsea con Enzo Maresca** está en proceso de construcción. Aunque fichajes como Pedro Neto y Jadon Sancho refuerzan considerablemente las bandas, el equipo aún muestra inconsistencia táctica. Maresca necesita tiempo para implementar su filosofía con una plantilla que sigue siendo muy numerosa.\n\n**Factores clave que favorecen al Liverpool:**\n- Mayor estabilidad en el juego colectivo\n- Anfield como factor determinante (si fuera local)\n- Experiencia en partidos grandes de jugadores clave\n- Sistema defensivo más consolidado\n\n**Ventajas del Chelsea:**\n- Calidad individual en ataque con Neto y Sancho\n- Profundidad de plantilla\n- Motivación para demostrar mejora bajo Maresca\n\nMi predicción se inclina hacia el Liverpool por su mayor cohesión como equipo y la rápida adaptación al estilo de Slot, aunque el Chelsea tiene suficiente talento para complicar el partido, especialmente en transiciones rápidas.",
+            "timestamp": "2025-08-06T16:49:02.784028"
+          },
+          {
+            "response": "Analizando un hipotético enfrentamiento entre **Liverpool y Chelsea** en la temporada 2024-25, mi predicción sería:\n\n**Probabilidades:**\n- **Victoria Liverpool: 55%**\n- **Empate: 25%**\n- **Victoria Chelsea: 20%**\n\n## Análisis detallado:\n\n**A favor del Liverpool:**\n- **Transición exitosa**: Arne Slot ha demostrado ser un digno sucesor de Klopp, manteniendo la intensidad y efectividad del equipo\n- **Continuidad del proyecto**: A diferencia del Chelsea, Liverpool mantiene una base sólida de jugadores que vienen de ganar la Premier 2023-24\n- **Solidez en Anfield**: Históricamente dominante como local, factor clave si el partido es en casa\n\n**A favor del Chelsea:**\n- **Inversión significativa**: Los fichajes de Pedro Neto y Jadon Sancho aportan profundidad y calidad en ataque\n- **Nuevo proyecto**: Enzo Maresca podría sorprender con ideas frescas, aunque necesita tiempo para implementar su filosofía\n- **Potencial individual**: La plantilla del Chelsea tiene jugadores capaces de decidir partidos en momentos puntuales\n\n**Factores clave:**\n1. **Adaptación táctica**: Slot ha tenido más tiempo de pretemporada que Maresca, quien recién asume el cargo\n2. **Química de equipo**: Liverpool mantiene su núcleo ganador, mientras Chelsea integra múltiples fichajes\n3. **Momento de forma**: El Liverpool suele empezar fuerte las temporadas, especialmente tras títulos\n\nLa ventaja del Liverpool se basa principalmente en su estabilidad institucional y la continuidad de un proyecto ganador, mientras que el Chelsea está en fase de reconstrucción bajo un nuevo entrenador. Sin embargo, el fútbol siempre puede deparar sorpresas, especialmente con la calidad individual que posee el Chelsea.",
+            "timestamp": "2025-08-06T16:49:16.805049"
+          }
+        ]
+      },
+      "chat_4": {
+        "success_rate": 1.0,
+        "avg_time": 16.887144804000854,
+        "min_time": 15.318251132965088,
+        "max_time": 18.516525745391846,
+        "median_time": 17.302982091903687,
+        "std_dev": 1.2800584771958388,
+        "total_tests": 5,
+        "successful_tests": 5,
+        "sample_responses": [
+          {
+            "response": "## Favoritos al Título de la Premier League 2024-25\n\nBasándome en el análisis actualizado de la temporada en curso, estos son los principales candidatos al título con sus probabilidades estimadas:\n\n### **1. Manchester City - 35% de probabilidad**\nEl equipo de Pep Guardiola sigue siendo el principal favorito. A pesar de la fuerte competencia, su consistencia y profundidad de plantilla los mantiene al frente. La experiencia en títulos recientes y el sistema consolidado de Guardiola son factores decisivos.\n\n### **2. Arsenal - 25% de probabilidad**\nLos Gunners de Mikel Arteta han demostrado ser contendientes serios en las últimas temporadas. Con el refuerzo de Riccardo Calafiori en defensa, tienen una plantilla más equilibrada. Su juventud y hambre de títulos los convierte en la principal amenaza al City.\n\n### **3. Liverpool - 22% de probabilidad**\nLa era post-Klopp bajo Arne Slot representa una incógnita fascinante. Aunque ganaron la liga en 2023-24, la transición a un nuevo entrenador siempre conlleva ajustes. El fichaje de Federico Chiesa añade profundidad en ataque, pero el cambio de estilo podría requerir tiempo de adaptación.\n\n### **4. Chelsea - 10% de probabilidad**\nEnzo Maresca tiene el desafío de organizar una plantilla renovada con las incorporaciones de Pedro Neto y Jadon Sancho. El potencial está ahí, pero la cohesión del equipo y la adaptación al nuevo sistema táctico serán cruciales.\n\n### **5. Manchester United - 5% de probabilidad**\nTen Hag reforzó bien con Zirkzee y De Ligt, pero las inconsistencias del equipo en temporadas recientes limitan sus opciones reales de título. Necesitarían una mejora significativa en su rendimiento.\n\n### **6. Otros (Newcastle, Tottenham, Aston Villa) - 3% de probabilidad**\nAunque equipos como el Newcastle de Eddie Howe o el Aston Villa de Unai Emery pueden dar sorpresas, sus probabilidades de ganar el título siguen siendo bajas comparadas con los gigantes tradicionales.\n\n**Factores clave a considerar:**\n- La adaptación de Slot en Liverpool será fundamental\n- La consistencia del Arsenal determinará si pueden mantener la presión sobre el City\n- La cohesión del nuevo Chelsea de Maresca es la gran incógnita\n- El calendario europeo impactará en todos los candidatos\n\nLa carrera promete ser apasionante con múltiples contendientes legítimos.",
+            "timestamp": "2025-08-06T16:50:14.698751"
+          },
+          {
+            "response": "## Favoritos al Título Premier League 2024-25\n\nBasándome en el análisis de la temporada actual y los cambios significativos del verano, estos son los principales candidatos:\n\n### **1. Manchester City - 35% de probabilidad**\nPep Guardiola sigue siendo el factor diferencial. A pesar de no realizar grandes fichajes, mantienen el núcleo que ganó el triplete en 2023. Con Haaland, De Bruyne y Rodri, siguen siendo el equipo a batir.\n\n### **2. Arsenal - 28% de probabilidad**\nLos Gunners han mostrado una progresión constante bajo Arteta. El fichaje de Riccardo Calafiori refuerza una defensa ya sólida. Después de pelear hasta la última jornada las últimas dos temporadas, parecen listos para dar el salto definitivo.\n\n### **3. Liverpool - 22% de probabilidad**\nLa era post-Klopp con Arne Slot es la gran incógnita. El holandés llega tras su éxito en el Feyenoord, pero adaptarse después de Klopp es un reto enorme. El fichaje de Federico Chiesa aporta calidad, pero la transición podría costarles puntos cruciales.\n\n### **4. Chelsea - 10% de probabilidad**\nEnzo Maresca tiene la difícil tarea de dar coherencia a un proyecto errático. Los fichajes de Pedro Neto y Jadon Sancho son prometedores, pero el equipo necesita tiempo para gel. Demasiadas incógnitas para considerarlos favoritos reales.\n\n### **5. Manchester United - 5% de probabilidad**\nTen Hag sigue en el cargo tras ganar la FA Cup. Los fichajes de Zirkzee y De Ligt son positivos, pero la inconsistencia mostrada en temporadas anteriores y la competencia feroz hacen muy difícil que peleen por el título.\n\n**Factores clave:**\n- La adaptación de Slot en Liverpool será determinante\n- Arsenal parece el más preparado para desbancar al City\n- Chelsea necesita estabilidad tras tantos cambios\n- La experiencia de Guardiola sigue siendo un factor diferencial\n\nLa lucha parece estar entre City y Arsenal, con Liverpool como incógnita por su nuevo proyecto.",
+            "timestamp": "2025-08-06T16:50:30.588766"
+          }
+        ]
+      },
+      "chat_5": {
+        "success_rate": 1.0,
+        "avg_time": 13.041982555389405,
+        "min_time": 12.529354810714722,
+        "max_time": 13.657829999923706,
+        "median_time": 13.050462007522583,
+        "std_dev": 0.40689701158244995,
+        "total_tests": 5,
+        "successful_tests": 5,
+        "sample_responses": [
+          {
+            "response": "Los fichajes del Manchester United para la temporada 2024-25 presentan un panorama mixto que refleja la ambición del club por volver a la élite, aunque con ciertos interrogantes sobre la coherencia del proyecto.\n\n**Análisis de las principales incorporaciones:**\n\n**Joshua Zirkzee** - El delantero neerlandés llegó procedente del Bologna como una apuesta de futuro. Con 23 años, aporta movilidad y capacidad de asociación, aunque su adaptación a la Premier League está siendo gradual. Su perfil técnico encaja con el estilo de Ten Hag, pero necesita mejorar su efectividad goleadora para justificar la inversión.\n\n**Matthijs de Ligt** - La reunión con Ten Hag ha sido positiva. El central neerlandés ha aportado la solidez y liderazgo que necesitaba la defensa. Su experiencia en Bayern Munich y Juventus se nota, formando una pareja sólida con Lisandro Martínez cuando ambos están disponibles.\n\n**Evaluación general:**\n- **Positivos**: De Ligt ha elevado el nivel defensivo considerablemente. La apuesta por jugadores que conocen el sistema de Ten Hag facilita la implementación táctica.\n- **Negativos**: Falta un mediocampista creativo de élite y un extremo derecho natural. Zirkzee aún no ha demostrado ser la solución definitiva en la delantera.\n\n**Probabilidad de éxito esta temporada:**\n- Top 4: 65%\n- Ganar algún título doméstico: 40%\n- Competir por la Premier: 15%\n\nEl United ha mejorado respecto a la temporada pasada, pero Chelsea y Liverpool han realizado mercados más completos. La clave estará en la consistencia y en evitar las lesiones que tanto afectaron la campaña anterior.",
+            "timestamp": "2025-08-06T16:51:34.778144"
+          },
+          {
+            "response": "Los fichajes del Manchester United para la temporada 2024-25 presentan un panorama mixto bajo la dirección de Erik ten Hag.\n\n**Principales incorporaciones:**\n\n**Joshua Zirkzee** - El delantero neerlandés llegó procedente del Bologna como una apuesta de futuro. A sus 23 años, aporta movilidad y versatilidad en el ataque, aunque todavía está adaptándose a la intensidad de la Premier League.\n\n**Matthijs de Ligt** - La reunión con Ten Hag ha sido clave en este fichaje desde el Bayern Munich. El central neerlandés aporta experiencia en la élite europea y liderazgo en la zaga, formando una sociedad prometedora con Lisandro Martínez.\n\n**Análisis del mercado:**\n\nLos Red Devils han optado por un enfoque más conservador tras los gastos excesivos de temporadas anteriores. La estrategia parece enfocarse en:\n- Jugadores que conocen el sistema de Ten Hag (De Ligt)\n- Talentos jóvenes con potencial de revalorización (Zirkzee)\n- Reforzar posiciones específicas identificadas como prioritarias\n\n**Aspectos positivos:**\n- De Ligt fortalece significativamente la defensa\n- Menor gasto comparado con ventanas anteriores\n- Fichajes con proyección a largo plazo\n\n**Aspectos mejorables:**\n- Falta un mediocampista defensivo de élite\n- No se ha reforzado suficientemente el lateral derecho\n- La delantera sigue dependiendo mucho de Højlund y ahora Zirkzee, ambos jóvenes\n\nEn comparación con rivales directos como Chelsea (que fichó a Pedro Neto y Jadon Sancho) o Liverpool (que incorporó a Chiesa), el United ha sido más comedido. Esto podría afectar sus aspiraciones de Champions League, donde estimo sus probabilidades de clasificación en un **65%** para puestos europeos, pero solo un **35%** para el top 4.",
+            "timestamp": "2025-08-06T16:51:48.435705"
+          }
+        ]
+      }
+    },
+    "summary": {
+      "overall_avg_time": 10.447062171132941,
+      "overall_success_rate": 1.0,
+      "fastest_response": 0.0013861656188964844,
+      "slowest_response": 17.469882488250732,
+      "total_tests_run": 95
+    }
+  },
+  "claude_ai_off": {
+    "basic": {
+      "health": {
+        "success_rate": 1.0,
+        "avg_time": 0.0030944347381591797,
+        "min_time": 0.0018270015716552734,
+        "max_time": 0.005085945129394531,
+        "median_time": 0.0019218921661376953,
+        "std_dev": 0.001693552611205043,
+        "total_tests": 5,
+        "successful_tests": 5,
+        "sample_responses": [
+          {
+            "ai_mode": "Solo datos locales",
+            "data_range": "2014-2024",
+            "llm_ready": true,
+            "model_version": null,
+            "status": "healthy",
+            "teams_loaded": 34,
+            "timestamp": "2025-08-06T16:35:52.327662",
+            "use_claude_ai": false,
+            "version": "1.0.0"
+          },
+          {
+            "ai_mode": "Solo datos locales",
+            "data_range": "2014-2024",
+            "llm_ready": true,
+            "model_version": null,
+            "status": "healthy",
+            "teams_loaded": 34,
+            "timestamp": "2025-08-06T16:35:52.332932",
+            "use_claude_ai": false,
+            "version": "1.0.0"
+          }
+        ]
+      },
+      "teams": {
+        "success_rate": 1.0,
+        "avg_time": 0.0015410900115966797,
+        "min_time": 0.001402139663696289,
+        "max_time": 0.0016219615936279297,
+        "median_time": 0.001573801040649414,
+        "std_dev": 8.845930130491181e-05,
+        "total_tests": 5,
+        "successful_tests": 5,
+        "sample_responses": [
+          {
+            "count": 34,
+            "teams": [
+              "Arsenal",
+              "Aston Villa",
+              "Bournemouth",
+              "Brentford",
+              "Brighton",
+              "Burnley",
+              "Cardiff",
+              "Chelsea",
+              "Crystal Palace",
+              "Everton",
+              "Fulham",
+              "Huddersfield",
+              "Hull",
+              "Leeds",
+              "Leicester",
+              "Liverpool",
+              "Luton",
+              "Man City",
+              "Man United",
+              "Middlesbrough",
+              "Newcastle",
+              "Norwich",
+              "Nott'M Forest",
+              "Qpr",
+              "Sheffield United",
+              "Southampton",
+              "Stoke",
+              "Sunderland",
+              "Swansea",
+              "Tottenham",
+              "Watford",
+              "West Brom",
+              "West Ham",
+              "Wolves"
+            ]
+          },
+          {
+            "count": 34,
+            "teams": [
+              "Arsenal",
+              "Aston Villa",
+              "Bournemouth",
+              "Brentford",
+              "Brighton",
+              "Burnley",
+              "Cardiff",
+              "Chelsea",
+              "Crystal Palace",
+              "Everton",
+              "Fulham",
+              "Huddersfield",
+              "Hull",
+              "Leeds",
+              "Leicester",
+              "Liverpool",
+              "Luton",
+              "Man City",
+              "Man United",
+              "Middlesbrough",
+              "Newcastle",
+              "Norwich",
+              "Nott'M Forest",
+              "Qpr",
+              "Sheffield United",
+              "Southampton",
+              "Stoke",
+              "Sunderland",
+              "Swansea",
+              "Tottenham",
+              "Watford",
+              "West Brom",
+              "West Ham",
+              "Wolves"
+            ]
+          }
+        ]
+      },
+      "stats": {
+        "success_rate": 1.0,
+        "avg_time": 0.001416015625,
+        "min_time": 0.001291036605834961,
+        "max_time": 0.0016298294067382812,
+        "median_time": 0.0013611316680908203,
+        "std_dev": 0.00013569058846586468,
+        "total_tests": 5,
+        "successful_tests": 5,
+        "sample_responses": [
+          {
+            "data_loaded": true,
+            "features": [
+              "Predicciones de partidos",
+              "Análisis de equipos",
+              "Chat sobre Premier League",
+              "Estadísticas históricas",
+              "IA con Claude-3.5-Sonnet"
+            ],
+            "model_version": null,
+            "total_matches": 3460,
+            "total_teams": 34
+          },
+          {
+            "data_loaded": true,
+            "features": [
+              "Predicciones de partidos",
+              "Análisis de equipos",
+              "Chat sobre Premier League",
+              "Estadísticas históricas",
+              "IA con Claude-3.5-Sonnet"
+            ],
+            "model_version": null,
+            "total_matches": 3460,
+            "total_teams": 34
+          }
+        ]
+      },
+      "system": {
+        "success_rate": 1.0,
+        "avg_time": 0.0012664318084716797,
+        "min_time": 0.0011491775512695312,
+        "max_time": 0.0014219284057617188,
+        "median_time": 0.0012509822845458984,
+        "std_dev": 0.00010202315170158217,
+        "total_tests": 5,
+        "successful_tests": 5,
+        "sample_responses": [
+          {
+            "ai_mode": "Solo datos locales",
+            "current_date": "Agosto 2025",
+            "current_managers": {
+              "Arsenal": "Mikel Arteta",
+              "Aston Villa": "Unai Emery",
+              "Brighton": "Fabian Hurzeler",
+              "Chelsea": "Enzo Maresca",
+              "Liverpool": "Arne Slot",
+              "Man City": "Pep Guardiola",
+              "Man United": "Erik ten Hag",
+              "Newcastle": "Eddie Howe",
+              "Tottenham": "Ange Postecoglou",
+              "West Ham": "Julen Lopetegui"
+            },
+            "data_note": "Datos históricos disponibles hasta 2024, contexto actual agregado manualmente",
+            "league_winner_last_season": "Liverpool",
+            "major_changes": [
+              "Arne Slot reemplaza a Jürgen Klopp en Liverpool",
+              "Enzo Maresca nuevo entrenador del Chelsea",
+              "Múltiples fichajes importantes en verano 2024",
+              "Temporada 2024-25 en curso"
+            ],
+            "recent_transfers": [
+              "Kylian Mbappé se fue al Real Madrid",
+              "Arsenal fichó a Riccardo Calafiori",
+              "Chelsea fichó a Pedro Neto y Jadon Sancho",
+              "Liverpool fichó a Federico Chiesa",
+              "Man United fichó a Joshua Zirkzee y Matthijs de Ligt"
+            ],
+            "season": "2024-25",
+            "use_claude_ai": false
+          },
+          {
+            "ai_mode": "Solo datos locales",
+            "current_date": "Agosto 2025",
+            "current_managers": {
+              "Arsenal": "Mikel Arteta",
+              "Aston Villa": "Unai Emery",
+              "Brighton": "Fabian Hurzeler",
+              "Chelsea": "Enzo Maresca",
+              "Liverpool": "Arne Slot",
+              "Man City": "Pep Guardiola",
+              "Man United": "Erik ten Hag",
+              "Newcastle": "Eddie Howe",
+              "Tottenham": "Ange Postecoglou",
+              "West Ham": "Julen Lopetegui"
+            },
+            "data_note": "Datos históricos disponibles hasta 2024, contexto actual agregado manualmente",
+            "league_winner_last_season": "Liverpool",
+            "major_changes": [
+              "Arne Slot reemplaza a Jürgen Klopp en Liverpool",
+              "Enzo Maresca nuevo entrenador del Chelsea",
+              "Múltiples fichajes importantes en verano 2024",
+              "Temporada 2024-25 en curso"
+            ],
+            "recent_transfers": [
+              "Kylian Mbappé se fue al Real Madrid",
+              "Arsenal fichó a Riccardo Calafiori",
+              "Chelsea fichó a Pedro Neto y Jadon Sancho",
+              "Liverpool fichó a Federico Chiesa",
+              "Man United fichó a Joshua Zirkzee y Matthijs de Ligt"
+            ],
+            "season": "2024-25",
+            "use_claude_ai": false
+          }
+        ]
+      }
+    },
+    "predictions": {
+      "prediction_1": {
+        "success_rate": 1.0,
+        "avg_time": 0.00135040283203125,
+        "min_time": 0.0012068748474121094,
+        "max_time": 0.0017762184143066406,
+        "median_time": 0.0012657642364501953,
+        "std_dev": 0.00023938964736859312,
+        "total_tests": 5,
+        "successful_tests": 5,
+        "sample_responses": [
+          {
+            "prediction": {
+              "away_team": "Chelsea",
+              "confidence_score": 0.6,
+              "expected_result": "Victoria Local",
+              "home_team": "Liverpool",
+              "key_insights": [
+                "Ventaja de jugar en casa para Liverpool",
+                "Forma reciente: WWLWWDWLDD vs WWWWWDLDWW",
+                "Predicción basada en estadísticas históricas"
+              ],
+              "predicted_away_goals": 1.7,
+              "predicted_home_goals": 2.4,
+              "reasoning": "Predicción estadística basada en promedios históricos y ventaja local",
+              "win_probability_away": 0.5,
+              "win_probability_draw": 0.2,
+              "win_probability_home": 0.6627906976744186
+            },
+            "timestamp": "2025-08-06T16:35:52.362602"
+          },
+          {
+            "prediction": {
+              "away_team": "Chelsea",
+              "confidence_score": 0.6,
+              "expected_result": "Victoria Local",
+              "home_team": "Liverpool",
+              "key_insights": [
+                "Ventaja de jugar en casa para Liverpool",
+                "Forma reciente: WWLWWDWLDD vs WWWWWDLDWW",
+                "Predicción basada en estadísticas históricas"
+              ],
+              "predicted_away_goals": 1.7,
+              "predicted_home_goals": 2.4,
+              "reasoning": "Predicción estadística basada en promedios históricos y ventaja local",
+              "win_probability_away": 0.5,
+              "win_probability_draw": 0.2,
+              "win_probability_home": 0.6627906976744186
+            },
+            "timestamp": "2025-08-06T16:35:52.363859"
+          }
+        ]
+      },
+      "prediction_2": {
+        "success_rate": 1.0,
+        "avg_time": 0.0012128353118896484,
+        "min_time": 0.0011038780212402344,
+        "max_time": 0.0013391971588134766,
+        "median_time": 0.001216888427734375,
+        "std_dev": 0.00010267899624455581,
+        "total_tests": 5,
+        "successful_tests": 5,
+        "sample_responses": [
+          {
+            "prediction": {
+              "away_team": "Man City",
+              "confidence_score": 0.6,
+              "expected_result": "Empate",
+              "home_team": "Arsenal",
+              "key_insights": [
+                "Ventaja de jugar en casa para Arsenal",
+                "Forma reciente: WLWWWDWWWW vs DWWWWWWWWW",
+                "Predicción basada en estadísticas históricas"
+              ],
+              "predicted_away_goals": 2.1,
+              "predicted_home_goals": 2.3,
+              "reasoning": "Predicción estadística basada en promedios históricos y ventaja local",
+              "win_probability_away": 0.6416184971098265,
+              "win_probability_draw": 0.2,
+              "win_probability_home": 0.6551724137931034
+            },
+            "timestamp": "2025-08-06T16:35:52.368984"
+          },
+          {
+            "prediction": {
+              "away_team": "Man City",
+              "confidence_score": 0.6,
+              "expected_result": "Empate",
+              "home_team": "Arsenal",
+              "key_insights": [
+                "Ventaja de jugar en casa para Arsenal",
+                "Forma reciente: WLWWWDWWWW vs DWWWWWWWWW",
+                "Predicción basada en estadísticas históricas"
+              ],
+              "predicted_away_goals": 2.1,
+              "predicted_home_goals": 2.3,
+              "reasoning": "Predicción estadística basada en promedios históricos y ventaja local",
+              "win_probability_away": 0.6416184971098265,
+              "win_probability_draw": 0.2,
+              "win_probability_home": 0.6551724137931034
+            },
+            "timestamp": "2025-08-06T16:35:52.370248"
+          }
+        ]
+      },
+      "prediction_3": {
+        "success_rate": 1.0,
+        "avg_time": 0.0013671398162841796,
+        "min_time": 0.0011436939239501953,
+        "max_time": 0.0016620159149169922,
+        "median_time": 0.0013802051544189453,
+        "std_dev": 0.0002097727463598003,
+        "total_tests": 5,
+        "successful_tests": 5,
+        "sample_responses": [
+          {
+            "prediction": {
+              "away_team": "Tottenham",
+              "confidence_score": 0.6,
+              "expected_result": "Empate",
+              "home_team": "Man United",
+              "key_insights": [
+                "Ventaja de jugar en casa para Man United",
+                "Forma reciente: DWDLWDLDLW vs WWLWLDLLLW",
+                "Predicción basada en estadísticas históricas"
+              ],
+              "predicted_away_goals": 1.7,
+              "predicted_home_goals": 2.0,
+              "reasoning": "Predicción estadística basada en promedios históricos y ventaja local",
+              "win_probability_away": 0.44571428571428573,
+              "win_probability_draw": 0.2,
+              "win_probability_home": 0.5953757225433526
+            },
+            "timestamp": "2025-08-06T16:35:52.375227"
+          },
+          {
+            "prediction": {
+              "away_team": "Tottenham",
+              "confidence_score": 0.6,
+              "expected_result": "Empate",
+              "home_team": "Man United",
+              "key_insights": [
+                "Ventaja de jugar en casa para Man United",
+                "Forma reciente: DWDLWDLDLW vs WWLWLDLLLW",
+                "Predicción basada en estadísticas históricas"
+              ],
+              "predicted_away_goals": 1.7,
+              "predicted_home_goals": 2.0,
+              "reasoning": "Predicción estadística basada en promedios históricos y ventaja local",
+              "win_probability_away": 0.44571428571428573,
+              "win_probability_draw": 0.2,
+              "win_probability_home": 0.5953757225433526
+            },
+            "timestamp": "2025-08-06T16:35:52.376856"
+          }
+        ]
+      },
+      "prediction_4": {
+        "success_rate": 1.0,
+        "avg_time": 0.0010933876037597656,
+        "min_time": 0.0009701251983642578,
+        "max_time": 0.0012869834899902344,
+        "median_time": 0.0010309219360351562,
+        "std_dev": 0.00012663337486497884,
+        "total_tests": 5,
+        "successful_tests": 5,
+        "sample_responses": [
+          {
+            "prediction": {
+              "away_team": "Aston Villa",
+              "confidence_score": 0.6,
+              "expected_result": "Victoria Local",
+              "home_team": "Newcastle",
+              "key_insights": [
+                "Ventaja de jugar en casa para Newcastle",
+                "Forma reciente: WDWWDWLWLW vs WDWDDDLWLL",
+                "Predicción basada en estadísticas históricas"
+              ],
+              "predicted_away_goals": 1.1,
+              "predicted_home_goals": 1.7,
+              "reasoning": "Predicción estadística basada en promedios históricos y ventaja local",
+              "win_probability_away": 0.2992125984251969,
+              "win_probability_draw": 0.2749809499618999,
+              "win_probability_home": 0.4258064516129032
+            },
+            "timestamp": "2025-08-06T16:35:52.381900"
+          },
+          {
+            "prediction": {
+              "away_team": "Aston Villa",
+              "confidence_score": 0.6,
+              "expected_result": "Victoria Local",
+              "home_team": "Newcastle",
+              "key_insights": [
+                "Ventaja de jugar en casa para Newcastle",
+                "Forma reciente: WDWWDWLWLW vs WDWDDDLWLL",
+                "Predicción basada en estadísticas históricas"
+              ],
+              "predicted_away_goals": 1.1,
+              "predicted_home_goals": 1.7,
+              "reasoning": "Predicción estadística basada en promedios históricos y ventaja local",
+              "win_probability_away": 0.2992125984251969,
+              "win_probability_draw": 0.2749809499618999,
+              "win_probability_home": 0.4258064516129032
+            },
+            "timestamp": "2025-08-06T16:35:52.382900"
+          }
+        ]
+      },
+      "prediction_5": {
+        "success_rate": 1.0,
+        "avg_time": 0.0018687248229980469,
+        "min_time": 0.0010628700256347656,
+        "max_time": 0.004408121109008789,
+        "median_time": 0.0012176036834716797,
+        "std_dev": 0.0014263368031474102,
+        "total_tests": 5,
+        "successful_tests": 5,
+        "sample_responses": [
+          {
+            "prediction": {
+              "away_team": "West Ham",
+              "confidence_score": 0.6,
+              "expected_result": "Empate",
+              "home_team": "Brighton",
+              "key_insights": [
+                "Ventaja de jugar en casa para Brighton",
+                "Forma reciente: LLWLLLDDLD vs DDLDWLWLLL",
+                "Predicción basada en estadísticas históricas"
+              ],
+              "predicted_away_goals": 1.3,
+              "predicted_home_goals": 1.5,
+              "reasoning": "Predicción estadística basada en promedios históricos y ventaja local",
+              "win_probability_away": 0.28488372093023256,
+              "win_probability_draw": 0.3498988877654196,
+              "win_probability_home": 0.3652173913043478
+            },
+            "timestamp": "2025-08-06T16:35:52.387537"
+          },
+          {
+            "prediction": {
+              "away_team": "West Ham",
+              "confidence_score": 0.6,
+              "expected_result": "Empate",
+              "home_team": "Brighton",
+              "key_insights": [
+                "Ventaja de jugar en casa para Brighton",
+                "Forma reciente: LLWLLLDDLD vs DDLDWLWLLL",
+                "Predicción basada en estadísticas históricas"
+              ],
+              "predicted_away_goals": 1.3,
+              "predicted_home_goals": 1.5,
+              "reasoning": "Predicción estadística basada en promedios históricos y ventaja local",
+              "win_probability_away": 0.28488372093023256,
+              "win_probability_draw": 0.3498988877654196,
+              "win_probability_home": 0.3652173913043478
+            },
+            "timestamp": "2025-08-06T16:35:52.392041"
+          }
+        ]
+      }
+    },
+    "analysis": {
+      "analysis_1": {
+        "success_rate": 1.0,
+        "avg_time": 0.001153421401977539,
+        "min_time": 0.0010280609130859375,
+        "max_time": 0.001249074935913086,
+        "median_time": 0.0012159347534179688,
+        "std_dev": 0.00010621680152914907,
+        "total_tests": 5,
+        "successful_tests": 5,
+        "sample_responses": [
+          {
+            "analysis": {
+              "goals_conceded_per_game": 1.0260115606936415,
+              "goals_per_game": 2.008670520231214,
+              "home_advantage": 0.1340550654905105,
+              "key_players": [
+                "Entrenador actual: Arne Slot"
+              ],
+              "recent_form": "Análisis basado en datos históricos - Buena",
+              "strengths": [
+                "Ataque productivo (2.0 goles/partido)",
+                "Defensa sólida (1.0 goles recibidos/partido)",
+                "Fuerte en casa (66% victorias locales)",
+                "Buen rendimiento general (60% victorias)"
+              ],
+              "team_name": "Liverpool",
+              "weaknesses": [
+                "Requiere análisis más detallado"
+              ],
+              "win_rate": 0.5953757225433526
+            },
+            "timestamp": "2025-08-06T16:35:52.397065"
+          },
+          {
+            "analysis": {
+              "goals_conceded_per_game": 1.0260115606936415,
+              "goals_per_game": 2.008670520231214,
+              "home_advantage": 0.1340550654905105,
+              "key_players": [
+                "Entrenador actual: Arne Slot"
+              ],
+              "recent_form": "Análisis basado en datos históricos - Buena",
+              "strengths": [
+                "Ataque productivo (2.0 goles/partido)",
+                "Defensa sólida (1.0 goles recibidos/partido)",
+                "Fuerte en casa (66% victorias locales)",
+                "Buen rendimiento general (60% victorias)"
+              ],
+              "team_name": "Liverpool",
+              "weaknesses": [
+                "Requiere análisis más detallado"
+              ],
+              "win_rate": 0.5953757225433526
+            },
+            "timestamp": "2025-08-06T16:35:52.398100"
+          }
+        ]
+      },
+      "analysis_2": {
+        "success_rate": 1.0,
+        "avg_time": 0.0010826587677001953,
+        "min_time": 0.0009610652923583984,
+        "max_time": 0.0012421607971191406,
+        "median_time": 0.001068115234375,
+        "std_dev": 0.00010167329486594922,
+        "total_tests": 5,
+        "successful_tests": 5,
+        "sample_responses": [
+          {
+            "analysis": {
+              "goals_conceded_per_game": 1.1098265895953756,
+              "goals_per_game": 1.745664739884393,
+              "home_advantage": 0.04022988505747127,
+              "key_players": [
+                "Entrenador actual: Enzo Maresca"
+              ],
+              "recent_form": "Análisis basado en datos históricos - Excelente",
+              "strengths": [
+                "Ataque productivo (1.7 goles/partido)",
+                "Defensa sólida (1.1 goles recibidos/partido)",
+                "Buen rendimiento general (52% victorias)"
+              ],
+              "team_name": "Chelsea",
+              "weaknesses": [
+                "Requiere análisis más detallado"
+              ],
+              "win_rate": 0.5202312138728323
+            },
+            "timestamp": "2025-08-06T16:35:52.403015"
+          },
+          {
+            "analysis": {
+              "goals_conceded_per_game": 1.1098265895953756,
+              "goals_per_game": 1.745664739884393,
+              "home_advantage": 0.04022988505747127,
+              "key_players": [
+                "Entrenador actual: Enzo Maresca"
+              ],
+              "recent_form": "Análisis basado en datos históricos - Excelente",
+              "strengths": [
+                "Ataque productivo (1.7 goles/partido)",
+                "Defensa sólida (1.1 goles recibidos/partido)",
+                "Buen rendimiento general (52% victorias)"
+              ],
+              "team_name": "Chelsea",
+              "weaknesses": [
+                "Requiere análisis más detallado"
+              ],
+              "win_rate": 0.5202312138728323
+            },
+            "timestamp": "2025-08-06T16:35:52.404032"
+          }
+        ]
+      },
+      "analysis_3": {
+        "success_rate": 1.0,
+        "avg_time": 0.0010993003845214844,
+        "min_time": 0.0009872913360595703,
+        "max_time": 0.0012240409851074219,
+        "median_time": 0.0011241436004638672,
+        "std_dev": 9.406276203262512e-05,
+        "total_tests": 5,
+        "successful_tests": 5,
+        "sample_responses": [
+          {
+            "analysis": {
+              "goals_conceded_per_game": 1.0982658959537572,
+              "goals_per_game": 1.8872832369942196,
+              "home_advantage": 0.1842421812349639,
+              "key_players": [
+                "Entrenador actual: Mikel Arteta"
+              ],
+              "recent_form": "Análisis basado en datos históricos - Excelente",
+              "strengths": [
+                "Ataque productivo (1.9 goles/partido)",
+                "Defensa sólida (1.1 goles recibidos/partido)",
+                "Fuerte en casa (66% victorias locales)",
+                "Buen rendimiento general (56% victorias)"
+              ],
+              "team_name": "Arsenal",
+              "weaknesses": [
+                "Requiere análisis más detallado"
+              ],
+              "win_rate": 0.5635838150289018
+            },
+            "timestamp": "2025-08-06T16:35:52.408262"
+          },
+          {
+            "analysis": {
+              "goals_conceded_per_game": 1.0982658959537572,
+              "goals_per_game": 1.8872832369942196,
+              "home_advantage": 0.1842421812349639,
+              "key_players": [
+                "Entrenador actual: Mikel Arteta"
+              ],
+              "recent_form": "Análisis basado en datos históricos - Excelente",
+              "strengths": [
+                "Ataque productivo (1.9 goles/partido)",
+                "Defensa sólida (1.1 goles recibidos/partido)",
+                "Fuerte en casa (66% victorias locales)",
+                "Buen rendimiento general (56% victorias)"
+              ],
+              "team_name": "Arsenal",
+              "weaknesses": [
+                "Requiere análisis más detallado"
+              ],
+              "win_rate": 0.5635838150289018
+            },
+            "timestamp": "2025-08-06T16:35:52.409393"
+          }
+        ]
+      },
+      "analysis_4": {
+        "success_rate": 1.0,
+        "avg_time": 0.0009906768798828125,
+        "min_time": 0.0009372234344482422,
+        "max_time": 0.0011012554168701172,
+        "median_time": 0.0009758472442626953,
+        "std_dev": 6.405930548846408e-05,
+        "total_tests": 5,
+        "successful_tests": 5,
+        "sample_responses": [
+          {
+            "analysis": {
+              "goals_conceded_per_game": 0.8901734104046243,
+              "goals_per_game": 2.3815028901734103,
+              "home_advantage": 0.10404624277456653,
+              "key_players": [
+                "Entrenador actual: Pep Guardiola"
+              ],
+              "recent_form": "Análisis basado en datos históricos - Excelente",
+              "strengths": [
+                "Ataque productivo (2.4 goles/partido)",
+                "Defensa sólida (0.9 goles recibidos/partido)",
+                "Fuerte en casa (75% victorias locales)",
+                "Buen rendimiento general (69% victorias)"
+              ],
+              "team_name": "Man City",
+              "weaknesses": [
+                "Requiere análisis más detallado"
+              ],
+              "win_rate": 0.6936416184971098
+            },
+            "timestamp": "2025-08-06T16:35:52.413833"
+          },
+          {
+            "analysis": {
+              "goals_conceded_per_game": 0.8901734104046243,
+              "goals_per_game": 2.3815028901734103,
+              "home_advantage": 0.10404624277456653,
+              "key_players": [
+                "Entrenador actual: Pep Guardiola"
+              ],
+              "recent_form": "Análisis basado en datos históricos - Excelente",
+              "strengths": [
+                "Ataque productivo (2.4 goles/partido)",
+                "Defensa sólida (0.9 goles recibidos/partido)",
+                "Fuerte en casa (75% victorias locales)",
+                "Buen rendimiento general (69% victorias)"
+              ],
+              "team_name": "Man City",
+              "weaknesses": [
+                "Requiere análisis más detallado"
+              ],
+              "win_rate": 0.6936416184971098
+            },
+            "timestamp": "2025-08-06T16:35:52.414785"
+          }
+        ]
+      },
+      "analysis_5": {
+        "success_rate": 1.0,
+        "avg_time": 0.0010377883911132813,
+        "min_time": 0.000946044921875,
+        "max_time": 0.0012028217315673828,
+        "median_time": 0.0009708404541015625,
+        "std_dev": 0.00011250217149247322,
+        "total_tests": 5,
+        "successful_tests": 5,
+        "sample_responses": [
+          {
+            "analysis": {
+              "goals_conceded_per_game": 1.115606936416185,
+              "goals_per_game": 1.5722543352601157,
+              "home_advantage": 0.16763005780346818,
+              "key_players": [
+                "Entrenador actual: Erik ten Hag"
+              ],
+              "recent_form": "Análisis basado en datos históricos - Regular",
+              "strengths": [
+                "Ataque productivo (1.6 goles/partido)",
+                "Defensa sólida (1.1 goles recibidos/partido)",
+                "Buen rendimiento general (51% victorias)"
+              ],
+              "team_name": "Man United",
+              "weaknesses": [
+                "Requiere análisis más detallado"
+              ],
+              "win_rate": 0.5115606936416185
+            },
+            "timestamp": "2025-08-06T16:35:52.419000"
+          },
+          {
+            "analysis": {
+              "goals_conceded_per_game": 1.115606936416185,
+              "goals_per_game": 1.5722543352601157,
+              "home_advantage": 0.16763005780346818,
+              "key_players": [
+                "Entrenador actual: Erik ten Hag"
+              ],
+              "recent_form": "Análisis basado en datos históricos - Regular",
+              "strengths": [
+                "Ataque productivo (1.6 goles/partido)",
+                "Defensa sólida (1.1 goles recibidos/partido)",
+                "Buen rendimiento general (51% victorias)"
+              ],
+              "team_name": "Man United",
+              "weaknesses": [
+                "Requiere análisis más detallado"
+              ],
+              "win_rate": 0.5115606936416185
+            },
+            "timestamp": "2025-08-06T16:35:52.419977"
+          }
+        ]
+      }
+    },
+    "chat": {
+      "chat_1": {
+        "success_rate": 1.0,
+        "avg_time": 0.0013128280639648437,
+        "min_time": 0.0011928081512451172,
+        "max_time": 0.0014009475708007812,
+        "median_time": 0.0013260841369628906,
+        "std_dev": 7.70727654064583e-05,
+        "total_tests": 5,
+        "successful_tests": 5,
+        "sample_responses": [
+          {
+            "response": "🤖 Hola! Estoy en modo solo datos locales, pero puedo ayudarte con información de Premier League.\n\n**Puedo responderte sobre:**\n⚽ Predicciones entre equipos específicos\n📊 Rendimiento y estadísticas de equipos\n👨‍💼 Entrenadores actuales y cambios\n💰 Fichajes de la temporada 2024-25\n🏆 Favoritos al título\n\n**Por ejemplo, pregúntame:**\n- \"¿Cómo va el Arsenal esta temporada?\"\n- \"¿Quién ganaría entre City y Arsenal?\"\n- \"¿Qué tal los fichajes del Chelsea?\"\n- \"¿Cuáles son los favoritos al título?\"\n\n💡 Para análisis más profundo con Claude AI, puedes activar el modo avanzado.\n\n¿Sobre qué te gustaría saber?",
+            "timestamp": "2025-08-06T16:35:52.424479"
+          },
+          {
+            "response": "🤖 Hola! Estoy en modo solo datos locales, pero puedo ayudarte con información de Premier League.\n\n**Puedo responderte sobre:**\n⚽ Predicciones entre equipos específicos\n📊 Rendimiento y estadísticas de equipos\n👨‍💼 Entrenadores actuales y cambios\n💰 Fichajes de la temporada 2024-25\n🏆 Favoritos al título\n\n**Por ejemplo, pregúntame:**\n- \"¿Cómo va el Arsenal esta temporada?\"\n- \"¿Quién ganaría entre City y Arsenal?\"\n- \"¿Qué tal los fichajes del Chelsea?\"\n- \"¿Cuáles son los favoritos al título?\"\n\n💡 Para análisis más profundo con Claude AI, puedes activar el modo avanzado.\n\n¿Sobre qué te gustaría saber?",
+            "timestamp": "2025-08-06T16:35:52.425707"
+          }
+        ]
+      },
+      "chat_2": {
+        "success_rate": 1.0,
+        "avg_time": 0.0012158393859863282,
+        "min_time": 0.0010881423950195312,
+        "max_time": 0.0013470649719238281,
+        "median_time": 0.0011878013610839844,
+        "std_dev": 9.743776761603036e-05,
+        "total_tests": 5,
+        "successful_tests": 5,
+        "sample_responses": [
+          {
+            "response": "📊 **Estado actual de Arsenal**\n\n**Resumen rápido:**\nEl Arsenal ha tenido un rendimiento **excelente** en términos históricos. Con **Mikel Arteta** como entrenador actual, el equipo ha mostrado:\n\n- **Promedio de goles:** 1.9 por partido\n- **Solidez defensiva:** 1.1 goles recibidos/partido  \n- **Porcentaje de victorias:** 56%\n- **Forma reciente:** WLWWWDWWWW\n\n**Fortalezas principales:**\n- Ataque productivo (1.9 goles/partido)\n- Defensa sólida (1.1 goles recibidos/partido)\n\nPara análisis más completo usa \"Analizar Arsenal\" o activa el modo Claude AI.\n\n💡 **Datos hasta 2024** - Contexto actual agregado manualmente.",
+            "timestamp": "2025-08-06T16:35:52.430977"
+          },
+          {
+            "response": "📊 **Estado actual de Arsenal**\n\n**Resumen rápido:**\nEl Arsenal ha tenido un rendimiento **excelente** en términos históricos. Con **Mikel Arteta** como entrenador actual, el equipo ha mostrado:\n\n- **Promedio de goles:** 1.9 por partido\n- **Solidez defensiva:** 1.1 goles recibidos/partido  \n- **Porcentaje de victorias:** 56%\n- **Forma reciente:** WLWWWDWWWW\n\n**Fortalezas principales:**\n- Ataque productivo (1.9 goles/partido)\n- Defensa sólida (1.1 goles recibidos/partido)\n\nPara análisis más completo usa \"Analizar Arsenal\" o activa el modo Claude AI.\n\n💡 **Datos hasta 2024** - Contexto actual agregado manualmente.",
+            "timestamp": "2025-08-06T16:35:52.432156"
+          }
+        ]
+      },
+      "chat_3": {
+        "success_rate": 1.0,
+        "avg_time": 0.0014145851135253906,
+        "min_time": 0.0011320114135742188,
+        "max_time": 0.001661062240600586,
+        "median_time": 0.001461029052734375,
+        "std_dev": 0.00021622063819121346,
+        "total_tests": 5,
+        "successful_tests": 5,
+        "sample_responses": [
+          {
+            "response": "🏆 **Análisis Chelsea vs Liverpool** (Basado en datos históricos)\n\n**Mi predicción:**\nConsiderando las estadísticas históricas y el contexto actual, veo a **Chelsea** como ligero favorito con un **48%** de probabilidad de victoria.\n\n📊 **Probabilidades detalladas:**\n- 🏠 Victoria Chelsea: 48%\n- 🤝 Empate: 11%\n- 🚌 Victoria Liverpool: 41%\n\n**Factores clave:**\n- Chelsea: 1.7 goles/partido históricos\n- Liverpool: 2.0 goles/partido históricos\n- Forma reciente: DLDWW vs DWLDD\n\n*Análisis basado en 3460 partidos históricos (2014-2024). Para predicción más detallada usa \"Predecir Chelsea vs Liverpool\"*\n\n💡 **Modo solo datos locales activo** - Para análisis con Claude AI, activa el modo avanzado.",
+            "timestamp": "2025-08-06T16:35:52.437676"
+          },
+          {
+            "response": "🏆 **Análisis Chelsea vs Liverpool** (Basado en datos históricos)\n\n**Mi predicción:**\nConsiderando las estadísticas históricas y el contexto actual, veo a **Chelsea** como ligero favorito con un **48%** de probabilidad de victoria.\n\n📊 **Probabilidades detalladas:**\n- 🏠 Victoria Chelsea: 48%\n- 🤝 Empate: 11%\n- 🚌 Victoria Liverpool: 41%\n\n**Factores clave:**\n- Chelsea: 1.7 goles/partido históricos\n- Liverpool: 2.0 goles/partido históricos\n- Forma reciente: DLDWW vs DWLDD\n\n*Análisis basado en 3460 partidos históricos (2014-2024). Para predicción más detallada usa \"Predecir Chelsea vs Liverpool\"*\n\n💡 **Modo solo datos locales activo** - Para análisis con Claude AI, activa el modo avanzado.",
+            "timestamp": "2025-08-06T16:35:52.438859"
+          }
+        ]
+      },
+      "chat_4": {
+        "success_rate": 1.0,
+        "avg_time": 0.0011881351470947265,
+        "min_time": 0.0011222362518310547,
+        "max_time": 0.0012362003326416016,
+        "median_time": 0.0012052059173583984,
+        "std_dev": 4.3692961146579034e-05,
+        "total_tests": 5,
+        "successful_tests": 5,
+        "sample_responses": [
+          {
+            "response": "🤖 Hola! Estoy en modo solo datos locales, pero puedo ayudarte con información de Premier League.\n\n**Puedo responderte sobre:**\n⚽ Predicciones entre equipos específicos\n📊 Rendimiento y estadísticas de equipos\n👨‍💼 Entrenadores actuales y cambios\n💰 Fichajes de la temporada 2024-25\n🏆 Favoritos al título\n\n**Por ejemplo, pregúntame:**\n- \"¿Cómo va el Arsenal esta temporada?\"\n- \"¿Quién ganaría entre City y Arsenal?\"\n- \"¿Qué tal los fichajes del Chelsea?\"\n- \"¿Cuáles son los favoritos al título?\"\n\n💡 Para análisis más profundo con Claude AI, puedes activar el modo avanzado.\n\n¿Sobre qué te gustaría saber?",
+            "timestamp": "2025-08-06T16:35:52.444441"
+          },
+          {
+            "response": "🤖 Hola! Estoy en modo solo datos locales, pero puedo ayudarte con información de Premier League.\n\n**Puedo responderte sobre:**\n⚽ Predicciones entre equipos específicos\n📊 Rendimiento y estadísticas de equipos\n👨‍💼 Entrenadores actuales y cambios\n💰 Fichajes de la temporada 2024-25\n🏆 Favoritos al título\n\n**Por ejemplo, pregúntame:**\n- \"¿Cómo va el Arsenal esta temporada?\"\n- \"¿Quién ganaría entre City y Arsenal?\"\n- \"¿Qué tal los fichajes del Chelsea?\"\n- \"¿Cuáles son los favoritos al título?\"\n\n💡 Para análisis más profundo con Claude AI, puedes activar el modo avanzado.\n\n¿Sobre qué te gustaría saber?",
+            "timestamp": "2025-08-06T16:35:52.445674"
+          }
+        ]
+      },
+      "chat_5": {
+        "success_rate": 1.0,
+        "avg_time": 0.0012198925018310548,
+        "min_time": 0.0009958744049072266,
+        "max_time": 0.0013930797576904297,
+        "median_time": 0.001207113265991211,
+        "std_dev": 0.00015826581934846423,
+        "total_tests": 5,
+        "successful_tests": 5,
+        "sample_responses": [
+          {
+            "response": "🤖 Hola! Estoy en modo solo datos locales, pero puedo ayudarte con información de Premier League.\n\n**Puedo responderte sobre:**\n⚽ Predicciones entre equipos específicos\n📊 Rendimiento y estadísticas de equipos\n👨‍💼 Entrenadores actuales y cambios\n💰 Fichajes de la temporada 2024-25\n🏆 Favoritos al título\n\n**Por ejemplo, pregúntame:**\n- \"¿Cómo va el Arsenal esta temporada?\"\n- \"¿Quién ganaría entre City y Arsenal?\"\n- \"¿Qué tal los fichajes del Chelsea?\"\n- \"¿Cuáles son los favoritos al título?\"\n\n💡 Para análisis más profundo con Claude AI, puedes activar el modo avanzado.\n\n¿Sobre qué te gustaría saber?",
+            "timestamp": "2025-08-06T16:35:52.450407"
+          },
+          {
+            "response": "🤖 Hola! Estoy en modo solo datos locales, pero puedo ayudarte con información de Premier League.\n\n**Puedo responderte sobre:**\n⚽ Predicciones entre equipos específicos\n📊 Rendimiento y estadísticas de equipos\n👨‍💼 Entrenadores actuales y cambios\n💰 Fichajes de la temporada 2024-25\n🏆 Favoritos al título\n\n**Por ejemplo, pregúntame:**\n- \"¿Cómo va el Arsenal esta temporada?\"\n- \"¿Quién ganaría entre City y Arsenal?\"\n- \"¿Qué tal los fichajes del Chelsea?\"\n- \"¿Cuáles son los favoritos al título?\"\n\n💡 Para análisis más profundo con Claude AI, puedes activar el modo avanzado.\n\n¿Sobre qué te gustaría saber?",
+            "timestamp": "2025-08-06T16:35:52.451779"
+          }
+        ]
+      }
+    },
+    "summary": {
+      "overall_avg_time": 0.001364504663567794,
+      "overall_success_rate": 1.0,
+      "fastest_response": 0.0009906768798828125,
+      "slowest_response": 0.0030944347381591797,
+      "total_tests_run": 95
+    }
+  },
+  "timestamp": "2025-08-06T16:35:50.316317",
+  "test_config": {
+    "iterations": 5,
+    "timeout": 60,
+    "base_url": "http://localhost:8080/api"
+  }
+}
