@@ -1,0 +1,5 @@
+﻿**DISEÑO DE FLUJO: INPUT DEL USUARIO → OUTPUT DEL LLM (HISTORYBOARD)**
+
+![](Diseño_flujo.png)
+
+
