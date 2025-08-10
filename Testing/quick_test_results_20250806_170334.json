@@ -1,0 +1,37 @@
+{
+  "timestamp": "2025-08-06T17:03:25.347072",
+  "local_mode": {
+    "health": {
+      "avg_time": 0.0084611177444458,
+      "success_rate": 1.0,
+      "total_tests": 2
+    },
+    "predict": {
+      "avg_time": 0.008136391639709473,
+      "success_rate": 1.0,
+      "total_tests": 2
+    },
+    "chat": {
+      "avg_time": 0.006895542144775391,
+      "success_rate": 1.0,
+      "total_tests": 2
+    }
+  },
+  "claude_mode": {
+    "health": {
+      "avg_time": 0.003748774528503418,
+      "success_rate": 1.0,
+      "total_tests": 2
+    },
+    "predict": {
+      "avg_time": 0.2743490934371948,
+      "success_rate": 1.0,
+      "total_tests": 2
+    },
+    "chat": {
+      "avg_time": 0.26504766941070557,
+      "success_rate": 1.0,
+      "total_tests": 2
+    }
+  }
+}
