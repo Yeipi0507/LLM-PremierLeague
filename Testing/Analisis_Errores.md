@@ -18,7 +18,7 @@ El análisis se centra en:
 
 ---
 
-## 🛠 Proceso para la detección de errores
+## Proceso para la detección de errores
 
 ### 1. Identificación de inconsistencias
 Se analizan las respuestas del modelo en búsqueda de:
