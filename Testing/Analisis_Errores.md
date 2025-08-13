@@ -1,49 +1,65 @@
-# 🛠 Detección de Errores Repetitivos del Modelo
+# Detección de Errores Repetitivos del Modelo
 
-## Objetivo
-Identificar, clasificar y documentar patrones de error que el LLM comete de forma recurrente al responder sobre **estadísticas de fútbol de la Premier League**, con el fin de implementar estrategias de mitigación y optimización.
+## Descripción de la tarea
+El objetivo de esta tarea es **identificar y documentar patrones de errores recurrentes** que el modelo comete al responder preguntas relacionadas con **predicciones de resultados** y **promedios de goles** en la Premier League.
 
----
-
-## Aspectos Clave
-
-### 1. Respuestas Unificadas
-- Mantener un **formato consistente** en todas las respuestas (estructura, unidades, estilo de redacción).
-- Evitar variaciones innecesarias como:
-  - `Haaland marcó 28 goles`
-  - `28 goles fueron anotados por Erling Haaland`
-- Aplicar **normalización de respuestas** para asegurar coherencia en cifras, nombres y fechas.
+El análisis se centra en:
+- Asegurar que las **respuestas sean unificadas y consistentes**.
+- Evitar **duplicidad** o **contradicciones** en la información generada.
+- Mantener un **formato homogéneo** en todas las respuestas.
+- Aplicar un **happy path** definido con un **fallback** para casos ambiguos o con datos insuficientes.
 
 ---
 
-### 2. Happy Path Definido
-- Cada **prompt** debe tener un **flujo de respuesta esperado** que cubra la consulta sin desviaciones.
-- Ejemplo:  
-  **Prompt:** `¿Quién fue el máximo goleador en la temporada 2023/24?`  
-  **Respuesta esperada:** `Erling Haaland fue el máximo goleador con 28 goles en la temporada 2023/24.`
-- Evitar información irrelevante como estadísticas de temporadas no solicitadas.
+## Alcance
+- **Dominio:** Premier League exclusivamente.
+- **Datos procesados:** Predicciones de resultados y promedios de goles por equipo/partido.
+- **No incluido:** Estadísticas individuales de jugadores, transferencias, ligas externas.
 
 ---
 
-### 3. Fallback para Prevenir Inconsistencias o Duplicidades
-- Si no existe información exacta, el modelo debe usar un **fallback**:
-  - Reconocer la falta de datos:  
-    `"No dispongo de información exacta para esa temporada, pero el último registro indica…"`
-  - Evitar **hallucinations** (respuestas inventadas).
-- Prevenir que el mismo prompt devuelva datos distintos sin cambios en el contexto.
+## 🛠 Proceso para la detección de errores
+
+### 1. Identificación de inconsistencias
+Se analizan las respuestas del modelo en búsqueda de:
+- Resultados contradictorios para el mismo partido.
+- Diferencias en promedios de goles en respuestas similares.
+- Cambios de formato en las predicciones (ejemplo: "3-1" vs "Arsenal 3 - 1 Manchester United").
+
+### 2. Unificación de respuestas
+Se establece un formato estándar para que **todas las predicciones y promedios** sigan la misma estructura.  
+Ejemplo de formato unificado:
+
+### 3. Aplicación de Happy Path con Fallback
+- **Happy Path:** Flujo esperado cuando la información está disponible y es confiable.
+- **Fallback:** Respuesta controlada para casos sin datos completos o fuera del alcance del modelo.
+  
+Ejemplo:
+- **Happy Path:** "Predicción: Liverpool 3 - 0 Everton. Promedio de goles (últimos 5 partidos): Liverpool 2.6 | Everton 0.8"
+- **Fallback:** "No hay datos suficientes para realizar la predicción solicitada en la temporada actual."
+
+### 4. Prevención de duplicidad
+Se revisan respuestas consecutivas para evitar que el modelo:
+- Repita la misma predicción en formatos distintos.
+- Genere dos resultados diferentes para la misma consulta.
+  
+---
+
+## Ejemplos de errores detectados
+
+| Tipo de error | Ejemplo | Solución aplicada |
+|---------------|---------|-------------------|
+| **Inconsistencia** | En un prompt predice "2-1" y en otro sobre el mismo partido dice "3-1". | Revisar y unificar cálculo de predicción. |
+| **Duplicidad** | El modelo responde el mismo partido con dos formatos distintos: "2-1" y "Arsenal 2 - 1 Chelsea". | Definir formato único para predicciones. |
+| **Fuera de alcance** | Pregunta sobre un jugador específico. | Responder con fallback: "Este modelo solo maneja datos de predicciones y promedios de goles de la Premier League." |
 
 ---
 
-### 4. Registro y Análisis de Patrones de Error
-Documentar los errores más frecuentes:
-- Datos desactualizados.
-- Confusión con otras ligas (ej. incluir datos de LaLiga).
-- Diferencias en cifras ante el mismo prompt.
-- Respuestas incompletas o demasiado generales.
-
-**Acciones recomendadas:**
-- Ajustes en prompts.
-- Mejora de datasets.
-- Postprocesamiento de salidas.
+## Resultado esperado
+Tras la aplicación de este proceso:
+- Todas las respuestas estarán alineadas a un formato único.
+- Las predicciones serán consistentes y libres de contradicciones.
+- Los casos sin información se gestionarán mediante respuestas claras y controladas.
+- Se reducirá el riesgo de errores repetitivos que afecten la confiabilidad del modelo.
 
 ---
